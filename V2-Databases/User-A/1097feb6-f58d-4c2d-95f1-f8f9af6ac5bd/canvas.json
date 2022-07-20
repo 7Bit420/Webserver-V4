@@ -1,0 +1,259 @@
+{
+    "courses": [
+        {
+            "id": 6591,
+            "root_account_id": 1,
+            "account_id": 8,
+            "name": "2022 SS Sailing",
+            "enrollment_term_id": 1,
+            "uuid": "lxHvW5MU8p1T7glZmBZgKVtPWXIkRN8aOomusw8X",
+            "start_at": "2022-02-03T00:05:29Z",
+            "grading_standard_id": null,
+            "is_public": false,
+            "created_at": "2022-01-30T21:04:22Z",
+            "course_code": "2022 SS Sailing",
+            "default_view": "modules",
+            "license": "private",
+            "grade_passback_setting": null,
+            "end_at": null,
+            "public_syllabus": false,
+            "public_syllabus_to_auth": false,
+            "storage_quota_mb": 500,
+            "is_public_to_auth_users": false,
+            "homeroom_course": false,
+            "course_color": null,
+            "friendly_name": null,
+            "apply_assignment_group_weights": false,
+            "calendar": {
+                "ics": "https://scotch.instructure.com/feeds/calendars/course_lxHvW5MU8p1T7glZmBZgKVtPWXIkRN8aOomusw8X.ics"
+            },
+            "time_zone": "Australia/Melbourne",
+            "blueprint": false,
+            "template": false,
+            "enrollments": [
+                {
+                    "type": "student",
+                    "role": "StudentEnrollment",
+                    "role_id": 3,
+                    "user_id": 10189,
+                    "enrollment_state": "active",
+                    "limit_privileges_to_course_section": false
+                }
+            ],
+            "hide_final_grades": false,
+            "workflow_state": "available",
+            "restrict_enrollments_to_course_dates": false,
+            "overridden_course_visibility": ""
+        },
+        {
+            "id": 6774,
+            "root_account_id": 1,
+            "account_id": 7,
+            "name": "2022 WS Hockey",
+            "enrollment_term_id": 1,
+            "uuid": "orl1QtWrywp7AZK9q3UFniQVYLSDBOoM6nkJ9tJm",
+            "start_at": "2022-04-27T20:06:22Z",
+            "grading_standard_id": null,
+            "is_public": null,
+            "created_at": "2022-04-27T00:30:09Z",
+            "course_code": "2022 WS Hockey",
+            "default_view": "wiki",
+            "license": null,
+            "grade_passback_setting": null,
+            "end_at": null,
+            "public_syllabus": false,
+            "public_syllabus_to_auth": false,
+            "storage_quota_mb": 500,
+            "is_public_to_auth_users": false,
+            "homeroom_course": false,
+            "course_color": null,
+            "friendly_name": null,
+            "apply_assignment_group_weights": false,
+            "calendar": {
+                "ics": "https://scotch.instructure.com/feeds/calendars/course_orl1QtWrywp7AZK9q3UFniQVYLSDBOoM6nkJ9tJm.ics"
+            },
+            "time_zone": "Australia/Melbourne",
+            "blueprint": false,
+            "template": false,
+            "enrollments": [
+                {
+                    "type": "student",
+                    "role": "StudentEnrollment",
+                    "role_id": 3,
+                    "user_id": 10189,
+                    "enrollment_state": "active",
+                    "limit_privileges_to_course_section": false
+                }
+            ],
+            "hide_final_grades": false,
+            "workflow_state": "available",
+            "restrict_enrollments_to_course_dates": false
+        },
+        {
+            "id": 1791,
+            "root_account_id": 1,
+            "account_id": 46,
+            "name": "Field",
+            "enrollment_term_id": 1,
+            "uuid": "QS8jQx3wFdHNXMim3D1O1dP74ga1baVWwSf6SZOM",
+            "start_at": "2019-01-31T23:06:00Z",
+            "grading_standard_id": null,
+            "is_public": false,
+            "created_at": "2018-10-10T09:52:24Z",
+            "course_code": "FD",
+            "default_view": "wiki",
+            "license": "private",
+            "grade_passback_setting": null,
+            "end_at": null,
+            "public_syllabus": false,
+            "public_syllabus_to_auth": false,
+            "storage_quota_mb": 500,
+            "is_public_to_auth_users": false,
+            "homeroom_course": false,
+            "course_color": null,
+            "friendly_name": null,
+            "apply_assignment_group_weights": false,
+            "calendar": {
+                "ics": "https://scotch.instructure.com/feeds/calendars/course_QS8jQx3wFdHNXMim3D1O1dP74ga1baVWwSf6SZOM.ics"
+            },
+            "time_zone": "Australia/Melbourne",
+            "blueprint": false,
+            "template": false,
+            "enrollments": [
+                {
+                    "type": "student",
+                    "role": "StudentEnrollment",
+                    "role_id": 3,
+                    "user_id": 10189,
+                    "enrollment_state": "active",
+                    "limit_privileges_to_course_section": false
+                }
+            ],
+            "hide_final_grades": false,
+            "workflow_state": "available",
+            "restrict_enrollments_to_course_dates": false,
+            "overridden_course_visibility": ""
+        },
+        {
+            "id": 5502,
+            "access_restricted_by_date": true
+        },
+        {
+            "id": 3196,
+            "root_account_id": 1,
+            "account_id": 2,
+            "name": "LMS Tutorials for Boys and Parents",
+            "enrollment_term_id": 143,
+            "uuid": "rq0JoZQEYx2cWnyyxi57DGmz9Bz0kgdNKLPR8L1V",
+            "start_at": "2020-01-28T03:45:00Z",
+            "grading_standard_id": null,
+            "is_public": false,
+            "created_at": "2020-01-22T09:36:23Z",
+            "course_code": "LMS Tutorials for Boys and Parents",
+            "default_view": "wiki",
+            "license": "private",
+            "grade_passback_setting": null,
+            "end_at": null,
+            "public_syllabus": false,
+            "public_syllabus_to_auth": true,
+            "storage_quota_mb": 2000,
+            "is_public_to_auth_users": true,
+            "homeroom_course": false,
+            "course_color": null,
+            "friendly_name": null,
+            "apply_assignment_group_weights": false,
+            "calendar": {
+                "ics": "https://scotch.instructure.com/feeds/calendars/course_rq0JoZQEYx2cWnyyxi57DGmz9Bz0kgdNKLPR8L1V.ics"
+            },
+            "time_zone": "Australia/Melbourne",
+            "blueprint": false,
+            "template": false,
+            "enrollments": [
+                {
+                    "type": "student",
+                    "role": "StudentEnrollment",
+                    "role_id": 3,
+                    "user_id": 10189,
+                    "enrollment_state": "active",
+                    "limit_privileges_to_course_section": false
+                }
+            ],
+            "hide_final_grades": false,
+            "workflow_state": "available",
+            "restrict_enrollments_to_course_dates": false,
+            "overridden_course_visibility": ""
+        },
+        {
+            "id": 4259,
+            "access_restricted_by_date": true
+        },
+        {
+            "id": 4143,
+            "root_account_id": 1,
+            "account_id": 2,
+            "name": "Scotch Streams",
+            "enrollment_term_id": 1,
+            "uuid": "DcKjF642vfsWNWQg6kbNrSMKKTIQNWyY66C2SpoZ",
+            "start_at": "2020-03-23T20:32:00Z",
+            "grading_standard_id": null,
+            "is_public": false,
+            "created_at": "2020-03-19T02:47:12Z",
+            "course_code": "Scotch Streams",
+            "default_view": "wiki",
+            "license": "private",
+            "grade_passback_setting": null,
+            "end_at": null,
+            "public_syllabus": false,
+            "public_syllabus_to_auth": false,
+            "storage_quota_mb": 3000,
+            "is_public_to_auth_users": false,
+            "homeroom_course": false,
+            "course_color": null,
+            "friendly_name": null,
+            "apply_assignment_group_weights": false,
+            "calendar": {
+                "ics": "https://scotch.instructure.com/feeds/calendars/course_DcKjF642vfsWNWQg6kbNrSMKKTIQNWyY66C2SpoZ.ics"
+            },
+            "time_zone": "Australia/Melbourne",
+            "blueprint": false,
+            "template": false,
+            "enrollments": [
+                {
+                    "type": "student",
+                    "role": "StudentEnrollment",
+                    "role_id": 3,
+                    "user_id": 10189,
+                    "enrollment_state": "active",
+                    "limit_privileges_to_course_section": false
+                }
+            ],
+            "hide_final_grades": false,
+            "workflow_state": "available",
+            "restrict_enrollments_to_course_dates": false,
+            "overridden_course_visibility": ""
+        },
+        {
+            "id": 4464,
+            "access_restricted_by_date": true
+        },
+        {
+            "id": 3665,
+            "access_restricted_by_date": true
+        },
+        {
+            "id": 3552,
+            "access_restricted_by_date": true
+        }
+    ],
+    "":""
+}
+// https://scotch.instructure.com/login/oauth2/auth?response_type=code&state=YYY&redirect_uri=http://localhost
+
+// vPKmDw4nkElPxl76PNiSFUMFS9NTeou3pCf0BTClGSUnuY1HzEsqD8Xp8bKhPI
+/*
+
+curl https:///scotch.instructure.com/api/v1/announcements \
+     -H 'Authorization: Bearer vPKmDw4nkElPxl76PNiSFUMFS9NTeou3pCf0BTClGSUnuY1HzEsqD8Xp8bKhPI'
+
+     
+*/

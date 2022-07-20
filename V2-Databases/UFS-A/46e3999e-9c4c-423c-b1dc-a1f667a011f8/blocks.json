@@ -1,0 +1,31 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"sp:mechrock": {
+		"textures": "sp_mechrock",
+		"sound": "stone"
+	},
+	"sp:shard_ore": {
+		"textures": "sp_shard_ore",
+		"sound": "stone"
+	},
+	"sp:cracked_debris": {
+		"textures": "sp_cracked_debris",
+		"sound": "stone"
+	},
+	"sp:debris_block": {
+		"textures": "sp_debris_block",
+		"sound": "stone"
+	},
+	"sp:astral_summoner": {
+		"textures": "sp_astral_summoner",
+		"sound": "stone"
+	},
+	"sp:fusion_star": {
+		"textures": "sp_fusion_star",
+		"sound": "stone"
+	}
+}

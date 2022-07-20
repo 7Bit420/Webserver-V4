@@ -1,0 +1,32 @@
+{
+    "databases": [
+        {
+            "type": "fs",
+            "cachedPropities": [
+                "id",
+                "username",
+                "password",
+                "discordId"
+            ],
+            "id": "User-A"
+        },
+        {
+            "type": "fsmap",
+            "cachedPropities": [],
+            "id": "UFS-A"
+        },
+        {
+            "type": "map",
+            "cachedPropities": [],
+            "id": "Login-A"
+        },
+        {
+            "type": "fs",
+            "cachedPropities": [
+                "id",
+                "cost"
+            ],
+            "id": "ITEMS-A"
+        }
+    ]
+}

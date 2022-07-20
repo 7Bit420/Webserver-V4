@@ -1,0 +1,9 @@
+{
+  "name": "webserver-v4-logger",
+  "version": "1.0.6",
+  "description": "A loging librail part of the 7bit/util packages",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Michael Bell",
+  "license": "MIT"
+}
