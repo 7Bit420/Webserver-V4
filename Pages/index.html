@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="styles.css" rel="stylesheet">
+    <script src="test.js" async></script>
+</head>
+
+<body>
+    <!-- <textarea id="test"></textarea> -->
+
+    <input type="" accept="image/*;capture=camera">
+    <video id="vid"></video>
+
+
+    <!-- #region Motor-->
+    <div>
+        <label for="Axis-A"> Stick 1 Up/Down</label>
+        <input type="range" min="-100" max="100" id="Axis-A">
+    </div>
+    <div>
+        <label for="Axis-B"> Stick 1 Left/Right</label>
+        <input type="range" min="-100" max="100" id="Axis-B">
+    </div>
+    <div>
+        <label for="Axis-C"> Stick 2 Left/Right</label>
+        <input type="range" min="-100" max="100" id="Axis-C">
+    </div>
+
+    <div>
+        <label for="Axis-C"> Motor Front Left</label>
+        <input type="range" min="-300" max="300" id="Motor-FL" disabled>
+    </div>
+    <div>
+        <label for="Axis-C"> Motor Front Right</label>
+        <input type="range" min="-300" max="300" id="Motor-FR" disabled>
+    </div>
+    <div>
+        <label for="Axis-C"> Motor Back Left</label>
+        <input type="range" min="-300" max="300" id="Motor-BL" disabled>
+    </div>
+    <div>
+        <label for="Axis-C"> Motor Back Right</label>
+        <input type="range" min="-300" max="300" id="Motor-BR" disabled>
+    </div>
+    <!-- #endregion -->
+
+    <object type="model/stl" data="pickup/test.stl" width="200" height="200"></object>
+    <canvas width="1000" height="1000" id="circle"
+        style="border: 1px solid black; height: 200px; width: 200px;"></canvas>
+    <input type="range" min="0" max="100" id="resalution">
+    <input type="range" min="0" max="1000" placeholder="450" id="radious">
+    <input type="range" min="0" max="50" placeholder="10" id="thickness">
+    <!-- <canvas width="600" height="200" id="graph"></canvas> -->
+    <button id="screen">Allow Record Screen</button>
+</body>
+
+</html>

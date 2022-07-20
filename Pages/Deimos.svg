@@ -1,0 +1,7 @@
+<svg width="500" height="140">
+    <rect x="10" y="10" width="350" height="15" fill="rgb(255, 255, 255)"/>
+    <rect x="140" y="110" width="350" height="15" fill="rgb(255, 255, 255)"/>
+    
+        <path fill="white" d="M 21 30 l 40 0 q 50 0 50 50 q 0 50 -50 50 l -40 0 q -10 0 -10 -10 l 0 -80 q 0 -10 10 -10 z"/>
+        <path fill="black" d="M 30 40 l 30 0 q 40 0 40 40 q 0 40 -40 40 l -30 0 q -10 0 -10 -10 l 0 -60 q 0 -10 10 -10 z"/>
+</svg>
