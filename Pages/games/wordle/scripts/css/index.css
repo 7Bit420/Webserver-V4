@@ -1,0 +1,77 @@
+* {
+    --box-size: 6vh;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+:root,
+body {
+    background: #121213;
+}
+
+#controls.keyboard {
+    width: fit-content;
+    align-self: center;
+    margin: auto;
+}
+
+#controls.menu {
+    width: min-content;
+    height: 20vh;
+    margin-left: 35vw;
+}
+
+#controls.menu * {
+    width: 25vw;
+    height: 8vh;
+    border-radius: 15px;
+    margin: 0.5vh 2.5vw;
+    border: 1px solid #818384;
+    background: #3a3a3c;
+    color: white;
+    font-size: 5vh;
+}
+
+#shadowContainer table {
+    display: inline-table;
+    margin: auto;
+    align-self: center;
+}
+
+table {
+    display: table;
+    padding: 1vh;
+    margin-left: calc(50vw - calc(calc(var(--box-size) + 1vh + 6px) * 3));
+}
+
+tr {
+    display: table-row;
+}
+
+td {
+    display: inline-block;
+    width: var(--box-size);
+    height: var(--box-size);
+    margin: 1vh;
+    background: #121213;
+    border: 3px solid #3a3a3c;
+    border-radius: 4px;
+    font-size: calc(var(--box-size)*0.8);
+}
+
+nav {
+    width: 100vw;
+    border-bottom: 2px solid #3a3a3c;
+    margin-bottom: 3vh;
+}
+
+h1 {
+    align-self: center;
+    font-size: 6vh;
+    color: white;
+    margin: 1vh 1vw;
+}
