@@ -1,0 +1,70 @@
+{
+    "subprocesses": [
+        {
+            "path": "ThreadManager/index.js",
+            "name": "threadManager",
+            "spawnArgs": [],
+            "config": {}
+        },
+        {
+            "path": "Database/index.js",
+            "name": "database",
+            "spawnArgs": [],
+            "config": {}
+        },
+        {
+            "path": "Database-V2/index.js",
+            "name": "database-v2",
+            "spawnArgs": [],
+            "config": {}
+        },
+        {
+            "path": "Webserver/index.js",
+            "name": "webserver",
+            "spawnArgs": [],
+            "config": {
+                "web": {
+                    "client_id": "397263336779-vd5ost9gjkaj0ad00ccih38pf52fe8pm.apps.googleusercontent.com",
+                    "project_id": "test-box-338910",
+                    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+                    "token_uri": "https://oauth2.googleapis.com/token",
+                    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+                    "client_secret": "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"
+                },
+                "redirects": [],
+                "headerOverides": [
+                    {
+                        "path": "https://localhost/WebShortCut/index.html",
+                        "headers": [
+                            {
+                                "name": "Access-Control-Allow-Origin",
+                                "value": "*"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "path": "Discord-Bot/out/index.js",
+            "name": "discord-bot",
+            "spawnArgs": [],
+            "config": {
+                "web": {
+                    "client_id": "397263336779-vd5ost9gjkaj0ad00ccih38pf52fe8pm.apps.googleusercontent.com",
+                    "project_id": "test-box-338910",
+                    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+                    "token_uri": "https://oauth2.googleapis.com/token",
+                    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+                    "client_secret": "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"
+                },
+                "redirects": [
+                    {
+                        "path": "/",
+                        "location": ".index"
+                    }
+                ]
+            }
+        }
+    ]
+}
