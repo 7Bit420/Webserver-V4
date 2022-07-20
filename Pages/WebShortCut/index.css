@@ -1,0 +1,197 @@
+@media screen and (min-width: 500px) {
+
+    h1.title {
+        margin-left: 4vw;
+    }
+
+    div.action p {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 50vw;
+    }
+
+    div.action .icon {
+        width: 9vh;
+        height: 9vh;
+    }
+
+    div.action {
+        height: 10%;
+        max-height: fit-content;
+        width: 95%;
+        border-radius: 10px;
+        padding: 1vw 1vh;
+    }
+
+    div.action h1 {
+        float: left;
+        width: 50vw;
+        font-size: larger;
+    }
+
+    div.optioncontainer {
+        width: 70vw;
+        height: 85vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    h1.title {
+        max-height: 10vh;
+        height: 10vh;
+        font-size: 5vh;
+        text-align: center;
+        width: 92vw;
+        margin: 4vh 5vw;
+    }
+
+    div.action .icon {
+        display: none;
+    }
+
+    div.action p {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        height: 50%;
+        font-size: 20%;
+        max-width: 100%;
+    }
+
+    div.action {
+        height: fit-content;
+        width: 80vw;
+        border-radius: 10px;
+        padding: 1vw 1vh;
+    }
+
+    div.action h1 {
+        font-size: 30%;
+    }
+
+    div.optioncontainer {
+        overflow: scroll;
+        padding-left: 5vw;
+        width: 90vw;
+        height: 70vh;
+    }
+
+    div#events {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body, :root {
+    margin: 0px;
+    background: #15141a;
+    color: rgb(57, 54, 92);
+    border-color: white;
+}
+
+h1.title {
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid;
+    width: fit-content;
+}
+
+div.action h1 {
+    display: block;
+    border-bottom: 1px solid;
+}
+
+div.action .icon {
+    float: right;
+}
+
+div.action p {
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+div.action {
+    padding: 1vw 1vh;
+    color: rgb(85, 81, 133);
+    font-size: medium;
+}
+
+div.action::-webkit-scrollbar {
+    display: none;
+    background: #15141a;
+    border: none;
+}
+
+div.action:nth-child(odd) {
+    background-color: #23222b;
+}
+
+div.action h1 {
+    font-size: larger;
+}
+
+div.optioncontainer {
+    overflow: scroll;
+    float: right;
+}
+
+div#events {
+    float: left;
+    border-right: #23222b 1px solid;
+    margin-left: 1vw;
+    width: 28vw;
+    height: 85vh;
+}
+
+div#events>.event {
+    display: block;
+    width: 26vw;
+    height: 10vh;
+    padding: 1vw 1vh;
+    background: white;
+    background: #23222b;
+    margin-bottom: 2vh;
+    border-radius: 10px;
+}
+
+div#events>.event.basic>.title {
+    width: 100%;
+    height: 30%;
+    font-size: 2.5vh;
+    margin: 0px;
+}
+
+div#events>.event.basic>.event.description {
+    width: 100%;
+    height: 70%;
+    font-size: 2vh;
+    margin: 0px;
+}
+
+div#events>.event.live>.event.title {
+    width: 55%;
+    height: 30%;
+    font-size: 2.5vh;
+    margin: 0px;
+    float: left;
+}
+
+div#events>.event.live>.event.description {
+    width: 55%;
+    height: 70%;
+    font-size: 2vh;
+    margin: 0px;
+    float: left;
+}
+
+div#events>.event.live>.event.container {
+    height: 100%;
+    width: 40%;
+    float: right;
+}

@@ -1,0 +1,73 @@
+@font-face {
+    font-family: quicksand;
+    src: url("/fonts/quicksand.ttf");
+}
+
+@font-face {
+    font-family: work-sans;
+    src: url("/fonts/work-sans.ttf");
+}
+
+@font-face {
+    font-family: gugi;
+    src: url("/fonts/gugi-typeface.ttf");
+}
+
+* {
+    background: unset;
+    border: none;
+    font-family: quicksand;
+    background: rgb(36, 36, 40);
+    color: rgb(163, 163, 163);
+}
+
+body, :root {
+    overflow-x: hidden;
+}
+
+h1.title {
+    position: absolute;
+    left: 5vw;
+    top: 59vh;
+}
+
+button#continue {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+}
+
+svg#next-arrow {
+    position: absolute;
+    left: 47vw;
+    top: 60vh;
+    fill: rgb(163, 163, 163);
+    transition: all 3s ease;
+    opacity: 0;
+}
+
+div.bar {
+    background: white;
+    position: absolute;
+    height: 5vh;
+    border-radius: 2.5vh;
+}
+
+div.bar:hover {
+    background: greenyellow;
+}
+
+iframe {
+    width: 100vw;
+    position: relative;
+    top: 50vh;
+    background: white;
+    margin-left: 120vw;
+}
+
+main {
+    position: absolute;
+    top: 70vh;
+    width: 80vw;
+    left: 10vw;
+}
