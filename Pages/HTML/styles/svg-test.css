@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    overflow: hidden;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+:root {
+    background: rgb(63, 63, 63);
+}
+
+svg {
+    position: absolute;
+}
