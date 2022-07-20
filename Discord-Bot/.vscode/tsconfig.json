@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "downlevelIteration": true,
+        "outDir": "../out",
+        "rootDir": "../src",
+        "allowJs": true
+    },
+    "include": [
+        "/Users/michael/Desktop/code/Progects/Webserver-V4/Discord Bot/src/**/*.ts",
+        "/Users/michael/Desktop/code/Progects/Webserver-V4/Discord Bot/src/*.ts"
+    ],
+    "exclude": [
+        "node_modules/**/*",
+        "node_modules/*",
+    ],
+}

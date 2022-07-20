@@ -1,0 +1,14 @@
+{
+    "songManifests": [
+        "/Users/michael/Music/Music/Media.localized/Music/HOME/Odyssey/manifest.json",
+        "/Users/michael/Music/Music/Media.localized/Music/Toby Fox/Undertail/manifest.json",
+        "/Users/michael/Music/Music/Media.localized/Music/C148/Minecraft Volume Alpha/manifest.json",
+        "/Users/michael/Music/Music/Media.localized/Music/Toby Fox/Deltarune/manifest.json"
+    ],
+    "songs": [
+        {
+            "path": "/Users/michael/Music/Music/Media.localized/Music/SFX/Body Falls Various Sound FX.mp3",
+            "name": "Body Falls Various Sound FX"
+        }
+    ]
+}

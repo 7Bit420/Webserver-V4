@@ -1,0 +1,19 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for webserver-v4",
+  "main": "out/index.js",
+  "scripts": {
+    "build": "rm -R -f ./out; cp -R ./src/. ./out; find ./out -name \"*.ts\" -delete; tsc;"
+  },
+  "author": "Michael Bell",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/voice": "^0.10.0",
+    "autoconf": "^1.2.0",
+    "discord.js": "^13.7.0",
+    "libsodium": "^0.7.10",
+    "libsodium-wrappers": "^0.7.10",
+    "uuid": "^8.3.2"
+  }
+}
