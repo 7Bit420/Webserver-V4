@@ -16,3 +16,6 @@
 /Logs/ThreadManager/main.log
 /Logs/WebServer/main.log
 Pages/.DS_Store
+*.mp4
+*.mov
+notes*
