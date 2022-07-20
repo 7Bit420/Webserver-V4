@@ -1,0 +1,57 @@
+@media (max-width: 600px) {
+
+    .triangle {
+        display: none;
+    }
+
+    main {
+        width: 100vw !important;
+    }
+
+    form {
+        align-self: center;
+        width: 80vw;
+    }
+
+    form * {
+        width: 80vw;
+    }
+}
+
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-left: 10vw transparent solid;
+    border-right: 10vw var(--main) solid;
+    border-top: 50vh transparent solid;
+    border-bottom: 50vh var(--main) solid;
+
+    float: right;
+}
+
+img.hero {
+    z-index: -1;
+    position: absolute;
+    width: 60vw;
+    height: 100vh;
+
+    object-fit: cover;
+    object-position: -55vw;
+}
+
+.container {
+    margin: 30vh 10vw;
+}
+
+main {
+    margin-top: 0px;
+    width: 40vw;
+    height: 100vh;
+    background: var(--main);
+    float: right;
+}
+
+form {
+    border-radius: 10px;
+    transition: 1s ease border;
+}

@@ -1,0 +1,71 @@
+@font-face {
+    font-family: work-sans;
+    src: url("/fonts/work-sans.ttf");
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+* {
+    background: grey;
+    margin: 0px;
+}
+
+#Prompt {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(24, 24, 24, 0.7);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#Prompt>.container {
+    width: 26vw;
+    height: 26vh;
+    border-radius: 50px;
+    margin: 35vh 35vw;
+    padding: 2vh 2vw;
+}
+
+#Prompt>.container>h1 {
+    font-size: 5vh;
+    font-weight: 500;
+    font-family: work-sans;
+}
+
+#Prompt>.container>#FSY { float: left; }
+#Prompt>.container>#FSN { float: right; }
+
+#Prompt>.container>button {
+    margin-top: 4vh;
+    font-size: 4vh;
+    width: 10vw;
+    height: 5vh;
+    appearance: unset;
+    border-top-color: unset;
+    border-right-color: unset;
+    border-bottom-color: unset;
+    border-left-color: unset;
+    background-color: unset;
+    box-sizing: border-box;
+    color: unset;
+    padding-top: unset;
+    padding-right: unset;
+    padding-bottom: unset;
+    padding-left: unset;
+    border-top-width: unset;
+    border-right-width: unset;
+    border-bottom-width: unset;
+    border-left-width: unset;
+    border-top-style: unset;
+    border-right-style: unset;
+    border-bottom-style: unset;
+    border-left-style: unset;
+}
+

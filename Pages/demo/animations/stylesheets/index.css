@@ -1,0 +1,24 @@
+@font-face {
+    font-family: quicksand;
+    src: url("/fonts/quicksand.ttf");
+}
+
+:root {
+    background: rgb(63, 63, 63);
+}
+
+* {
+    font-family: quicksand;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    color: rgb(145, 145, 145);
+}
+
+h1.title {
+    width: 80vw;
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    font-size: 6vh;
+}

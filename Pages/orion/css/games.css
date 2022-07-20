@@ -1,0 +1,49 @@
+.games>.game {
+    width: 46vw;
+    height: 36vh;
+    background: var(--tritritry);
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    border-radius: 20px;
+    margin: 2vw 2vh;
+}
+
+.games>.game:nth-child(odd) {
+    float: left;
+}
+
+.games>.game:nth-child(even) {
+    float: right;
+}
+
+.games>.game>.info {
+    width: 46vw;
+    height: 36vh;
+    background: rgb(33,33,33,0.7);
+    border-radius: 20px;
+}
+
+.games>.game>.info>.name {
+    font-size: 8vh;
+    text-align: center;
+    padding-top: 10vh;
+}
+.games>.game>.info>.description {
+    font-size: 4vh;
+    text-align: center;
+}
+
+.block {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    background: var(--secondry);
+}
+.block>p {
+    font-size: 10vh;
+    top: 45vh;
+}

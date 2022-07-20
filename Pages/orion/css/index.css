@@ -1,0 +1,8 @@
+iframe {
+    width: 100vw;
+    height: 100vh;
+}
+
+.load {
+    --primary: rgb(100,0,0);
+}

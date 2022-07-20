@@ -1,0 +1,20 @@
+{
+  "name": "webserver-v4",
+  "version": "4.0.0",
+  "description": "Webserver V4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Bell",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "discord.js": "^13.7.0",
+    "https": "^1.0.0",
+    "uuid": "^8.3.2",
+    "webserver-v4-logger": "^1.0.6",
+    "ws": "^8.5.0"
+  }
+}

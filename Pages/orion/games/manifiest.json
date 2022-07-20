@@ -1,0 +1,10 @@
+{
+    "games": [
+        {
+            "name": "TEST - 0",
+            "description": "A Test Game",
+            "icon": "/orion/images/placeholder.jpg",
+            "id": 1002039876528768
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+
+div.feed {
+    width: 50vw;
+    margin: 0px 5vw;
+    min-height: 80vh;
+    float: left;
+}
+
+div.widgets {
+    margin: 0px 5vw;
+    width: 30vw;
+    height: 80vh;
+    float: left;
+}
+

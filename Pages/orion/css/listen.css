@@ -1,0 +1,68 @@
+img.background {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 0;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    font-family: work-sans;
+    font-weight: 500;
+}
+
+div.menu.container {
+    position: fixed;
+    right: 0px;
+    width: 30vw;
+    height: 100vh;
+    background: none;
+}
+
+div.menu.container>div.menu {
+    position: fixed;
+    right: -30vw;
+    width: 30vw;
+    height: 100vh;
+    transition: right 1s ease;
+    background: rgb(63, 63, 63, 0.5);
+}
+
+div.menu.container>div.menu>h1 {
+    font-size: 5vh;
+    padding: 1vh 1vw;
+    font-family: Quicksand;
+}
+
+div.menu.container:hover>div.menu {
+    right: 0px;
+}
+
+div.playlist.container {
+    width: 25vh;
+    min-height: 5vh;
+    max-height: 50vh;
+    padding: 3vh 2.5vw;
+}
+
+div.playlist.container>div {
+    border-bottom: 1px black solid;
+    width: 25vw;
+    height: 7vh;
+}
+
+div.playlist.container>div>h1 {
+    width: 25vw;
+    height: 4vh;
+    font-size: 3vh;
+    text-overflow: ellipsis;
+}
+
+div.playlist.container>div>h2 {
+    width: 25vw;
+    height: 2.5vh;
+    font-size: 2vh;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,18 @@
+@media screen and (prefers-color-scheme: dark) {
+
+    * {
+        --background-1: rgb(43, 43, 43);
+    }
+
+}
+
+
+:root {
+    background: var(--background-1);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
