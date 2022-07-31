@@ -4,6 +4,10 @@
         "mime": "application/1d-interleaved-parityfec"
     },
     {
+        "ext": "pkpass",
+        "mime": "application/vnd.apple.pkpass"
+    },
+    {
         "ext": "3gpdash-qoe-report+xml",
         "mime": "application/3gpdash-qoe-report+xml"
     },

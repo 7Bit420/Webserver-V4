@@ -1,0 +1,1786 @@
+[
+    {
+        "ID": 76838907,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 32850,
+                "Text": "I live",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 1004308,
+                "Text": "I reside",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 106530,
+                "Text": "abito",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            },
+            {
+                "ID": 47539,
+                "Text": "io abito",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838908,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 234499,
+                "Text": "you live",
+                "Comment": "singular",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 175669,
+                "Text": "you live",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 39496697,
+                "Text": "you reside",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 226119,
+                "Text": "abiti",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            },
+            {
+                "ID": 234500,
+                "Text": "tu abiti",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838909,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 176247,
+                "Text": "he lives",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 39496698,
+                "Text": "he resides",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 47567,
+                "Text": "lui abita",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            },
+            {
+                "ID": 226121,
+                "Text": "abita",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838910,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 176244,
+                "Text": "she lives",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 39496699,
+                "Text": "she resides",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 47554,
+                "Text": "lei abita",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            },
+            {
+                "ID": 226121,
+                "Text": "abita",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838911,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 175693,
+                "Text": "we live",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 39496700,
+                "Text": "we reside",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 226122,
+                "Text": "abitiamo",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            },
+            {
+                "ID": 234502,
+                "Text": "noi abitiamo",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838912,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 234503,
+                "Text": "you live",
+                "Comment": "plural",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 418761,
+                "Text": "you all live",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 175669,
+                "Text": "you live",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 39496697,
+                "Text": "you reside",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 226124,
+                "Text": "abitate",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            },
+            {
+                "ID": 234504,
+                "Text": "voi abitate",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838913,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 180303,
+                "Text": "they live",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 39496701,
+                "Text": "they reside",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 226125,
+                "Text": "abitano",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            },
+            {
+                "ID": 397125,
+                "Text": "loro abitano",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838914,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 99879,
+                "Text": "an apartment",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 113240,
+                "Text": "a flat",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 459546,
+                "Text": "an appartment",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 266667,
+                "Text": "un appartamento",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 217863,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 40727,
+                "Text": "a house",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 34643,
+                "Text": "house",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 266666,
+                "Text": "una casa",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838915,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 126426,
+                "Text": "a building",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 125918,
+                "Text": "a palace",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 1578857,
+                "Text": "an apartment block",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 357741,
+                "Text": "un palazzo",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            },
+            {
+                "ID": 266669,
+                "Text": "un condominio",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838916,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 33020,
+                "Text": "old",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 27564,
+                "Text": "ancient",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 17424,
+                "Text": "antique",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 47458,
+                "Text": "antico",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            },
+            {
+                "ID": 152002,
+                "Text": "antica",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838917,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 2359476,
+                "Text": "a townhouse",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 39496702,
+                "Text": "una villa a schiera",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838918,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 276257,
+                "Text": "a town",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 114041,
+                "Text": "a country",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 1054315,
+                "Text": "un paese",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 926214,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 227666,
+                "Text": "a city",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 1054460,
+                "Text": "una città",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 74517679,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 30167,
+                "Text": "beautiful",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 16303,
+                "Text": "handsome",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 33389,
+                "Text": "pretty",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 21701,
+                "Text": "bello",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            },
+            {
+                "ID": 106537,
+                "Text": "bella",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 74517709,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 33455,
+                "Text": "ugly",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 25346,
+                "Text": "brutto",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            },
+            {
+                "ID": 154789,
+                "Text": "brutta",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 1104915,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 32535,
+                "Text": "big",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 38024,
+                "Text": "large",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 23264,
+                "Text": "grande",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838919,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 13815,
+                "Text": "bright",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 144611,
+                "Text": "luminoso",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            },
+            {
+                "ID": 233893,
+                "Text": "luminosa",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838920,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 16822,
+                "Text": "modern",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 81827,
+                "Text": "moderno",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            },
+            {
+                "ID": 155259,
+                "Text": "moderna",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838921,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 17349,
+                "Text": "small",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 17295,
+                "Text": "little",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 39270,
+                "Text": "piccolo",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            },
+            {
+                "ID": 154884,
+                "Text": "piccola",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838922,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 252339,
+                "Text": "rustic",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 13963,
+                "Text": "country",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 34036,
+                "Text": "rural",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 1232703,
+                "Text": "rustico",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            },
+            {
+                "ID": 4182215,
+                "Text": "rustica",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 4879971,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 17444,
+                "Text": "spacious",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 144739,
+                "Text": "spazioso",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            },
+            {
+                "ID": 206228,
+                "Text": "spaziosa",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 57637771,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 31210996,
+                "Text": "in the centre of Rome",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 31210997,
+                "Text": "nel centro di Roma",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 22198585,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 10803200,
+                "Text": "In the north of Italy",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 10803258,
+                "Text": "Nel nord dell' Italia",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 22198584,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 10803202,
+                "Text": "in the south of Sicily",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 10803260,
+                "Text": "Nel sud della Sicilia",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838923,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 39496703,
+                "Text": "in the east of Italy",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 39496704,
+                "Text": "nell'est dell'Italia",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838924,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 39496705,
+                "Text": "in the west of Italy",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 39496706,
+                "Text": "nell'ovest dell'Italia",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 165334,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 56873,
+                "Text": "my house",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 195605,
+                "Text": "la mia casa",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 7311027,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 32315,
+                "Text": "is",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 35147,
+                "Text": "it is",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 47515,
+                "Text": "è",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 19043,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 17879,
+                "Text": "more",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 25975,
+                "Text": "più",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 19044,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 16320,
+                "Text": "less",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 18918,
+                "Text": "meno",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838925,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 1122808,
+                "Text": "my apartment",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 563303,
+                "Text": "my flat",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 16194245,
+                "Text": "my appartment",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 39496707,
+                "Text": "il mio appartamento",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838926,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 2671222,
+                "Text": "I like living",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 39496708,
+                "Text": "mi piace abitare",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 74369426,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 277170,
+                "Text": "in the city centre",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 16062,
+                "Text": "in the city",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 32225,
+                "Text": "in the centre",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 151895,
+                "Text": "in centro",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 217872,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 234044,
+                "Text": "in the countryside",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 14840,
+                "Text": "countryside",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 29864,
+                "Text": "in the country",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 266672,
+                "Text": "in campagna",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 237594,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 16276,
+                "Text": "in the mountains",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 266674,
+                "Text": "in montagna",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 217871,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 32926,
+                "Text": "in the suburbs",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 155184,
+                "Text": "in periferia",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 400986,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 33656,
+                "Text": "on the coast",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 495673,
+                "Text": "sulla costa",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838927,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 39496709,
+                "Text": "near Melbourne",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 39496710,
+                "Text": "vicino a Melbourne",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 160925,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 37080,
+                "Text": "there is",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 186351,
+                "Text": "c'è",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            },
+            {
+                "ID": 3733374,
+                "Text": "c'e'",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 860837,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 34575,
+                "Text": "there are",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 186352,
+                "Text": "ci sono",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 2211109,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 33909,
+                "Text": "why",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 40776,
+                "Text": "because",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 25972,
+                "Text": "perché",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838928,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 732141,
+                "Text": "lots of traffic",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 154059,
+                "Text": "a lot of traffic",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 39496711,
+                "Text": "molto traffico",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838929,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 2198526,
+                "Text": "lots of space",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 542346,
+                "Text": "a lot of space",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 32202013,
+                "Text": "molto spazio",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 14937322,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 1267292,
+                "Text": "lots of things to do",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 7625243,
+                "Text": "molte cose da fare",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838930,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 6758925,
+                "Text": "lots of trees",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 39496712,
+                "Text": "molti alberi",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838931,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 39496713,
+                "Text": "lots of parks",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 39496714,
+                "Text": "molti parchi",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838932,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 510811,
+                "Text": "there are not",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 53077,
+                "Text": "there aren't",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 567103,
+                "Text": "non ci sono",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838933,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 206612,
+                "Text": "lots of shops",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 287806,
+                "Text": "many shops",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 2392209,
+                "Text": "molti negozi",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838934,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 2618004,
+                "Text": "lots of pollution",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            },
+            {
+                "ID": 542365,
+                "Text": "a lot of pollution",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": false,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 39496715,
+                "Text": "molto inquinamento",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 76838935,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 39496716,
+                "Text": "not many things to do",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 39496717,
+                "Text": "poche cose da fare",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    },
+    {
+        "ID": 4719074,
+        "BaseLanguageDefinitions": [
+            {
+                "ID": 1893840,
+                "Text": "too many tourists",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "B"
+            }
+        ],
+        "TargetLanguageDefinitions": [
+            {
+                "ID": 3958516,
+                "Text": "troppi turisti",
+                "Comment": "",
+                "ScriptType": 2,
+                "DisplayedAsAnswer": true,
+                "TypeCode": "T"
+            }
+        ],
+        "Comment": "",
+        "Type": 1,
+        "MilestoneRuleID": 2
+    }
+]

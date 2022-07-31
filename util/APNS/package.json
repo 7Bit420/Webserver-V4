@@ -1,0 +1,17 @@
+{
+  "name": "apns",
+  "version": "1.0.0",
+  "description": "Javascript implementation of APNS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "apple",
+    "push",
+    "notifications",
+    "apns"
+  ],
+  "author": "Michael Bell",
+  "license": "MIT"
+}
