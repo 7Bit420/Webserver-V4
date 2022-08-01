@@ -1,0 +1,1175 @@
+[
+    {
+        "thin": false,
+        "elements": [
+            {
+                "atn": 1,
+                "name": "Hydrogen",
+                "symbol": "H",
+                "group": 0,
+                "cat": "Reactive nonmetals"
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 3,
+                "name": "Lithium",
+                "symbol": "Li",
+                "group": 1,
+                "cat": "Alcline metals"
+            },
+            {
+                "atn": 11,
+                "name": "Sodium",
+                "symbol": "Na",
+                "group": 1,
+                "cat": "Alcline metals"
+            },
+            {
+                "atn": 19,
+                "name": "Potassium",
+                "symbol": "K",
+                "group": 1,
+                "cat":"Alcline metals"
+            },
+            {
+                "atn": 37,
+                "name": "Rubidium",
+                "symbol": "Rb",
+                "group": 1,
+                "cat": "Alcline metals"
+            },
+            {
+                "atn": 55,
+                "name": "Cesium",
+                "symbol": "Cs",
+                "group": 1,
+                "cat": "Alcline metals"
+            },
+            {
+                "atn": 87,
+                "name": "Francium",
+                "symbol": "Fr",
+                "group": 1,
+                "cat": "Alcline metals"
+            },
+            {
+                "thin": true
+            },
+            {
+                "transperent": true
+            },
+            {
+                "transperent": true
+            }
+        ]
+    },
+    {
+        "thin": false,
+        "elements": [
+            {
+                "transperent": true
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 4,
+                "name": "Berilyim",
+                "symbol": "Be",
+                "group": 1,
+                "cat": "Alcline earth metals"
+            },
+            {
+                "atn": 12,
+                "name": "Magnesium",
+                "symbol": "Mg",
+                "group": 1,
+                "cat": "Alcline earth metals"
+            },
+            {
+                "atn": 20,
+                "name": "Calcium",
+                "symbol": "Ca",
+                "group": 1,
+                "cat": "Alcline earth metals"
+            },
+            {
+                "atn": 38,
+                "name": "Strontium",
+                "symbol": "Sr",
+                "group": 1,
+                "cat": "Alcline earth metals"
+            },
+            {
+                "atn": 56,
+                "name": "Barium",
+                "symbol": "Ba",
+                "group": 1,
+                "cat": "Alcline earth metals"
+            },
+            {
+                "atn": 88,
+                "name": "Radium",
+                "symbol": "Ra",
+                "group": 1,
+                "cat": "Alcline earth metals"
+            },
+            {
+                "thin": true
+            },
+            {
+                "transperent": true
+            },
+            {
+                "transperent": true
+            }
+        ]
+    },
+    {
+        "thin": false,
+        "elements": [
+            {
+                "transperent": true
+            },
+            {
+                "thin": true
+            },
+            {
+                "transperent": true
+            },
+            {
+                "transperent": true
+            },
+            {
+                "atn": 21,
+                "name": "Scandium",
+                "symbol": "Sc",
+                "group": 2,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 39,
+                "name": "Yttrium",
+                "symbol": "Y",
+                "group": 2,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 57,
+                "name": "Lanthanum",
+                "symbol": "La",
+                "group": 2,
+                "cat": "Lanthanides"
+            },
+            {
+                "atn": 89,
+                "name": "Actinium",
+                "symbol": "Ac",
+                "group": 2,
+                "cat": "Actinides"
+            },
+            {
+                "thin": true
+            },
+            {
+                "transperent": true
+            },
+            {
+                "transperent": true
+            }
+        ]
+    },
+    {
+        "thin": true
+    },
+    {
+        "thin": false,
+        "elements": [
+            {
+                "transperent": true
+            },
+            {
+                "thin": true
+            },
+            {
+                "transperent": true
+            },
+            {
+                "transperent": true
+            },
+            
+            {
+                "atn": 22,
+                "name": "Titanium",
+                "symbol": "Ti",
+                "group": 3,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 40,
+                "name": "Zirconium",
+                "symbol": "Zr",
+                "group": 3,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 72,
+                "name": "Hafnium",
+                "symbol": "Hf",
+                "group": 3,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 104,
+                "name": "Rutherfordium",
+                "symbol": "Rf",
+                "group": 3,
+                "cat": "Transition metals"
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 58,
+                "name": "Cerium",
+                "symbol": "Ce",
+                "group": 3,
+                "cat": "Lanthanides"
+            },
+            {
+                "atn": 90,
+                "name": "Thorium",
+                "symbol": "Th",
+                "group": 3,
+                "cat": "Actinides"
+            }
+        ]
+    },
+    {
+        "thin": false,
+        "elements": [
+            {
+                "transperent": true
+            },
+            {
+                "thin": true
+            },
+            {
+                "transperent": true
+            },
+            {
+                "transperent": true
+            },
+            
+            {
+                "atn": 23,
+                "name": "Vanadium",
+                "symbol": "V",
+                "group": 4,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 41,
+                "name": "Niobium",
+                "symbol": "Nb",
+                "group": 4,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 73,
+                "name": "Tantalum",
+                "symbol": "Ta",
+                "group": 4,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 105,
+                "name": "Dubnium",
+                "symbol": "Db",
+                "group": 4,
+                "cat": "Transition metals"
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 59,
+                "name": "Praseodymium",
+                "symbol": "Pr",
+                "group": 4,
+                "cat": "Lanthanides"
+            },
+            {
+                "atn": 91,
+                "name": "Protactinium",
+                "symbol": "Pa",
+                "group": 4,
+                "cat": "Actinides"
+            }
+        ]
+    },
+    {
+        "thin": false,
+        "elements": [
+            {
+                "transperent": true
+            },
+            {
+                "thin": true
+            },
+            {
+                "transperent": true
+            },
+            {
+                "transperent": true
+            },
+            
+            {
+                "atn": 24,
+                "name": "Chromium",
+                "symbol": "Cr",
+                "group": 5,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 42,
+                "name": "Molybdenum",
+                "symbol": "Mo",
+                "group": 5,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 74,
+                "name": "Tungsten",
+                "symbol": "W",
+                "group": 5,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 106,
+                "name": "Seaborgium",
+                "symbol": "Sg",
+                "group": 5,
+                "cat": "Transition metals"
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 60,
+                "name": "Neodymium",
+                "symbol": "Nd",
+                "group": 5,
+                "cat": "Lanthanides"
+            },
+            {
+                "atn": 92,
+                "name": "Uranium",
+                "symbol": "U",
+                "group": 5,
+                "cat": "Actinides"
+            }
+        ]
+    },
+    {
+        "thin": false,
+        "elements": [
+            {
+                "transperent": true
+            },
+            {
+                "thin": true
+            },
+            {
+                "transperent": true
+            },
+            {
+                "transperent": true
+            },
+            
+            {
+                "atn": 25,
+                "name": "Manganese",
+                "symbol": "Mn",
+                "group": 6,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 43,
+                "name": "Technetium",
+                "symbol": "Tc",
+                "group": 6,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 75,
+                "name": "Rhenium",
+                "symbol": "Re",
+                "group": 6,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 107,
+                "name": "Bohrium",
+                "symbol": "Bh",
+                "group": 6,
+                "cat": "Transition metals"
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 61,
+                "name": "Promethium",
+                "symbol": "Pm",
+                "group": 6,
+                "cat": "Lanthanides"
+            },
+            {
+                "atn": 93,
+                "name": "Neptunium",
+                "symbol": "Np",
+                "group": 6,
+                "cat": "Actinides"
+            }
+        ]
+    },
+    {
+        "thin": false,
+        "elements": [
+            {
+                "transperent": true
+            },
+            {
+                "thin": true
+            },
+            {
+                "transperent": true
+            },
+            {
+                "transperent": true
+            },
+            
+            {
+                "atn": 26,
+                "name": "Iron",
+                "symbol": "Fe",
+                "group": 7,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 44,
+                "name": "Ruthenium",
+                "symbol": "Ru",
+                "group": 7,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 76,
+                "name": "Osmium",
+                "symbol": "Os",
+                "group": 7,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 108,
+                "name": "Hassium",
+                "symbol": "Hs",
+                "group": 7,
+                "cat": "Transition metals"
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 62,
+                "name": "Samarium",
+                "symbol": "Sm",
+                "group": 7,
+                "cat": "Lanthanides"
+            },
+            {
+                "atn": 94,
+                "name": "Plutonium",
+                "symbol": "Pu",
+                "group": 7,
+                "cat": "Actinides"
+            }
+        ]
+    },
+    {
+        "thin": false,
+        "elements": [
+            {
+                "transperent": true
+            },
+            {
+                "thin": true
+            },
+            {
+                "transperent": true
+            },
+            {
+                "transperent": true
+            },
+            
+            {
+                "atn": 27,
+                "name": "Cobalt",
+                "symbol": "Co",
+                "group": 8,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 45,
+                "name": "Rhodium",
+                "symbol": "Rh",
+                "group": 8,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 77,
+                "name": "Iridium",
+                "symbol": "Ir",
+                "group": 8,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 109,
+                "name": "Meitnerium",
+                "symbol": "Mt",
+                "group": 8,
+                "cat": "Unknown"
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 63,
+                "name": "Europium",
+                "symbol": "Eu",
+                "group": 8,
+                "cat": "Lanthanides"
+            },
+            {
+                "atn": 95,
+                "name": "Americium",
+                "symbol": "Am",
+                "group": 8,
+                "cat": "Actinides"
+            }
+        ]
+    },
+    {
+        "thin": false,
+        "elements": [
+            {
+                "transperent": true
+            },
+            {
+                "thin": true
+            },
+            {
+                "transperent": true
+            },
+            {
+                "transperent": true
+            },
+            
+            {
+                "atn": 28,
+                "name": "Nickel",
+                "symbol": "Ni",
+                "group": 9,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 46,
+                "name": "Palladium",
+                "symbol": "Pd",
+                "group": 9,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 78,
+                "name": "Platinum",
+                "symbol": "Pt",
+                "group": 9,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 110,
+                "name": "Darmstadtium",
+                "symbol": "Ds",
+                "group": 9,
+                "cat": "Unknown"
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 64,
+                "name": "Gadolinium",
+                "symbol": "Gd",
+                "group": 9,
+                "cat": "Lanthanides"
+            },
+            {
+                "atn": 96,
+                "name": "Curium",
+                "symbol": "Cm",
+                "group": 9,
+                "cat": "Actinides"
+            }
+        ]
+    },
+    {
+        "thin": false,
+        "elements": [
+            {
+                "transperent": true
+            },
+            {
+                "thin": true
+            },
+            {
+                "transperent": true
+            },
+            {
+                "transperent": true
+            },
+            
+            {
+                "atn": 29,
+                "name": "Copper",
+                "symbol": "Cu",
+                "group": 10,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 47,
+                "name": "Silver",
+                "symbol": "Ag",
+                "group": 10,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 79,
+                "name": "Gold",
+                "symbol": "Au",
+                "group": 10,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 111,
+                "name": "Roentgenium",
+                "symbol": "Rg",
+                "group": 10,
+                "cat": "Unknown"
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 65,
+                "name": "Terbium",
+                "symbol": "Tb",
+                "group": 10,
+                "cat": "Lanthanides"
+            },
+            {
+                "atn": 97,
+                "name": "Berkelium",
+                "symbol": "Bk",
+                "group": 10,
+                "cat": "Actinides"
+            }
+        ]
+    },
+    {
+        "thin": false,
+        "elements": [
+            {
+                "transperent": true
+            },
+            {
+                "thin": true
+            },
+            {
+                "transperent": true
+            },
+            {
+                "transperent": true
+            },
+            
+            {
+                "atn": 30,
+                "name": "Zinc",
+                "symbol": "Zn",
+                "group": 11,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 48,
+                "name": "Cadmium",
+                "symbol": "Cd",
+                "group": 11,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 80,
+                "name": "Mercury",
+                "symbol": "Hg",
+                "group": 11,
+                "cat": "Transition metals"
+            },
+            {
+                "atn": 112,
+                "name": "Copernicium",
+                "symbol": "Cn",
+                "group": 11,
+                "cat": "Unknown"
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 66,
+                "name": "Dysprosium",
+                "symbol": "Dy",
+                "group": 11,
+                "cat": "Lanthanides"
+            },
+            {
+                "atn": 98,
+                "name": "Californium",
+                "symbol": "Cf",
+                "group": 11,
+                "cat": "Actinides"
+            }
+        ]
+    },
+    {
+        "thin": false,
+        "elements": [
+            {
+                "transperent": true
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 5,
+                "name": "Boron",
+                "symbol": "B",
+                "group": 12,
+                "cat": "Metalloids"
+            },
+            {
+                "atn": 13,
+                "name": "Aluminium",
+                "symbol": "Al",
+                "group": 12,
+                "cat": "Post-transition metals"
+            },
+            {
+                "atn": 31,
+                "name": "Gallium",
+                "symbol": "Ga",
+                "group": 12,
+                "cat": "Post-transition metals"
+            },
+            {
+                "atn": 49,
+                "name": "Indium",
+                "symbol": "In",
+                "group": 12,
+                "cat": "Post-transition metals"
+            },
+            {
+                "atn": 81,
+                "name": "Thallium",
+                "symbol": "Tl",
+                "group": 12,
+                "cat": "Post-transition metals"
+            },
+            {
+                "atn": 113,
+                "name": "Nihonium",
+                "symbol": "Nh",
+                "group": 12,
+                "cat": "Unknown"
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 67,
+                "name": "Holmium",
+                "symbol": "Ho",
+                "group": 12,
+                "cat": "Lanthanides"
+            },
+            {
+                "atn": 99,
+                "name": "Einsteinium",
+                "symbol": "Es",
+                "group": 12,
+                "cat": "Actinides"
+            }
+        ]
+    },
+    {
+        "thin": false,
+        "elements": [
+            {
+                "transperent": true
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 6,
+                "name": "Carbon",
+                "symbol": "C",
+                "group": 13,
+                "cat": "Nonmetals"
+            },
+            {
+                "atn": 14,
+                "name": "Silicon",
+                "symbol": "Si",
+                "group": 13,
+                "cat": "Metalloids"
+            },
+            {
+                "atn": 32,
+                "name": "Germanium",
+                "symbol": "Ge",
+                "group": 13,
+                "cat": "Metalloids"
+            },
+            {
+                "atn": 50,
+                "name": "Tin",
+                "symbol": "Sn",
+                "group": 13,
+                "cat": "Post-transition metals"
+            },
+            {
+                "atn": 82,
+                "name": "Lead",
+                "symbol": "Pb",
+                "group": 13,
+                "cat": "Post-transition metals"
+            },
+            {
+                "atn": 114,
+                "name": "Flerovium",
+                "symbol": "Fl",
+                "group": 13,
+                "cat": "Unknown"
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 68,
+                "name": "Erbium",
+                "symbol": "Er",
+                "group": 13,
+                "cat": "Lanthanides"
+            },
+            {
+                "atn": 100,
+                "name": "Fermium",
+                "symbol": "Fm",
+                "group": 13,
+                "cat": "Actinides"
+            }
+        ]
+    },
+    {
+        "thin": false,
+        "elements": [
+            {
+                "transperent": true
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 7,
+                "name": "Nitrogen",
+                "symbol": "N",
+                "group": 14,
+                "cat": "Nonmetals"
+            },
+            {
+                "atn": 15,
+                "name": "Phosphorus",
+                "symbol": "P",
+                "group": 14,
+                "cat": "Nonmetals"
+            },
+            {
+                "atn": 33,
+                "name": "Arsenic",
+                "symbol": "As",
+                "group": 14,
+                "cat": "Metalloids"
+            },
+            {
+                "atn": 51,
+                "name": "Antimony",
+                "symbol": "Sb",
+                "group": 14,
+                "cat": "Metalloids"
+            },
+            {
+                "atn": 83,
+                "name": "Bismuth",
+                "symbol": "Bi",
+                "group": 14,
+                "cat": "Post-transition metals"
+            },
+            {
+                "atn": 115,
+                "name": "Moscovium",
+                "symbol": "Mc",
+                "group": 14,
+                "cat": "Unknown"
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 69,
+                "name": "Thulium",
+                "symbol": "Tm",
+                "group": 14,
+                "cat": "Lanthanides"
+            },
+            {
+                "atn": 101,
+                "name": "Mendelevium",
+                "symbol": "Md",
+                "group": 14,
+                "cat": "Actinides"
+            }
+        ]
+    },
+    {
+        "thin": false,
+        "elements": [
+            {
+                "transperent": true
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 8,
+                "name": "Oxygen",
+                "symbol": "O",
+                "group": 15,
+                "cat": "Nonmetals"
+            },
+            {
+                "atn": 16,
+                "name": "Sulfur",
+                "symbol": "S",
+                "group": 15,
+                "cat": "Nonmetals"
+            },
+            {
+                "atn": 34,
+                "name": "Selenium",
+                "symbol": "Se",
+                "group": 15,
+                "cat": "Nonmetals"
+            },
+            {
+                "atn": 52,
+                "name": "Tellurium",
+                "symbol": "Te",
+                "group": 15,
+                "cat": "Metalloids"
+            },
+            {
+                "atn": 84,
+                "name": "Polonium",
+                "symbol": "Po",
+                "group": 15,
+                "cat": "Post-transition metals"
+            },
+            {
+                "atn": 116,
+                "name": "Livermorium",
+                "symbol": "Lv",
+                "group": 15,
+                "cat": "Unknown"
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 70,
+                "name": "Ytterbium",
+                "symbol": "Yb",
+                "group": 15,
+                "cat": "Lanthanides"
+            },
+            {
+                "atn": 102,
+                "name": "Nobelium",
+                "symbol": "No",
+                "group": 15,
+                "cat": "Actinides"
+            }
+        ]
+    },
+    {
+        "elements": [
+            {
+                "transperent": true
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 9,
+                "name": "Fluorine",
+                "symbol": "F",
+                "group": 16,
+                "cat": "Nonmetals"
+            },
+            {
+                "atn": 17,
+                "name": "Chlorine",
+                "symbol": "Cl",
+                "group": 16,
+                "cat": "Nonmetals"
+            },
+            {
+                "atn": 35,
+                "name": "Bromine",
+                "symbol": "Br",
+                "group": 16,
+                "cat": "Nonmetals"
+            },
+            {
+                "atn": 53,
+                "name": "Iodine",
+                "symbol": "I",
+                "group": 16,
+                "cat": "Nonmetals"
+            },
+            {
+                "atn": 85,
+                "name": "Astatine",
+                "symbol": "At",
+                "group": 16,
+                "cat": "Post-transition metals"
+            },
+            {
+                "atn": 117,
+                "name": "Tennessine",
+                "symbol": "Ts",
+                "group": 16,
+                "cat": "Unknown"
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 71,
+                "name": "Lutetium",
+                "symbol": "Lu",
+                "group": 16,
+                "cat": "Lanthanides"
+            },
+            {
+                "atn": 103,
+                "name": "Lawrencium",
+                "symbol": "Lr",
+                "group": 16,
+                "cat": "Actinides"
+            }
+        ]
+    },
+    {
+        "thin": false,
+        "elements": [
+            {
+                "thin": true
+            },
+            {
+                "atn": 2,
+                "name": "Helium",
+                "symbol": "He",
+                "group": 17,
+                "cat": "Noble gases"
+            },
+            {
+                "atn": 10,
+                "name": "Neon",
+                "symbol": "Ne",
+                "group": 17,
+                "cat": "Noble gases"
+            },
+            {
+                "atn": 18,
+                "name": "Argon",
+                "symbol": "Ar",
+                "group": 17,
+                "cat": "Noble gases"
+            },
+            {
+                "atn": 36,
+                "name": "Krypton",
+                "symbol": "Kr",
+                "group": 17,
+                "cat": "Noble gases"
+            },
+            {
+                "atn": 54,
+                "name": "Xenon",
+                "symbol": "Xe",
+                "group": 17,
+                "cat": "Noble gases"
+            },
+            {
+                "atn": 86,
+                "name": "Radon",
+                "symbol": "Rn",
+                "group": 17,
+                "cat": "Noble gases"
+            },
+            {
+                "atn": 118,
+                "name": "Oganesson",
+                "symbol": "Og",
+                "group": 17,
+                "cat": "Unknown"
+            },
+            {
+                "thin": true
+            },
+            {
+                "atn": 72,
+                "name": "Hafnium",
+                "symbol": "Hf",
+                "group": 17
+            },
+            {
+                "atn": 104,
+                "name": "Rutherfordium",
+                "symbol": "Rf",
+                "group": 17
+            }
+        ]
+    }
+]

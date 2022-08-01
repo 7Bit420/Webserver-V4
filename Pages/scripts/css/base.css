@@ -1,0 +1,19 @@
+@import url('colour-scheme.css');
+@import url('fonts.css');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    font-family: quicksand;
+    background: var(--background-1);
+    color: var(--text-1);
+}
+
+h1 {
+    font-family: quicksand;
+    font-size: 5vh;
+    position: absolute;
+    left: 5vw;
+    top: 59vh;
+}
