@@ -45,12 +45,21 @@
     </div>
     <!-- #endregion -->
 
-    <object type="model/stl" data="pickup/test.stl" width="200" height="200"></object>
     <canvas width="1000" height="1000" id="circle"
-        style="border: 1px solid black; height: 200px; width: 200px;"></canvas>
-    <input type="range" min="0" max="100" id="resalution">
-    <input type="range" min="0" max="1000" placeholder="450" id="radious">
-    <input type="range" min="0" max="50" placeholder="10" id="thickness">
+    style="border: 1px solid black; height: 200px; width: 200px;"></canvas>
+    <object type="model/stl" data="pickup/test.stl" width="200" height="200"></object>
+    <div>
+        <label for="resalution">Resalution</label>
+        <input type="range" min="1" max="10" id="resalution">
+    </div>
+    <div>
+        <label for="radious">Radious</label>
+        <input type="range" min="1" max="450" placeholder="450" id="radious">
+    </div>
+    <div>
+        <label for="thickness">Thickness</label>
+        <input type="range" min="1" max="50" placeholder="5" id="thickness">
+    </div>
     <!-- <canvas width="600" height="200" id="graph"></canvas> -->
     <button id="screen">Allow Record Screen</button>
 </body>
