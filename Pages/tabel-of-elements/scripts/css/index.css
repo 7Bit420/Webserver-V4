@@ -4,6 +4,7 @@
     padding: 0px;
     margin: 0px;
     border: none;
+    --border-offest: 20px;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 }
 
 main {
-    --margin: 20px;
+    --margin: var(--border-offest);
     margin: calc(var(--margin) / 2);
     width: calc(100vw - var(--margin));
     height: calc(100vh - var(--margin));
@@ -24,7 +25,6 @@ main {
 }
 
 .element {
-    position: static;
     background: var(--background-2);
     width: var(--elm-size);
     height: var(--elm-size);
@@ -33,6 +33,8 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: calc(var(--elm-size) * 0.2) calc(var(--elm-size) * 0.6) calc(var(--elm-size) * 0.2);
+    grid-row: var(--row);
+    grid-column: var(--coloum);
 }
 
 .element.thin {
@@ -58,16 +60,10 @@ main {
 }
 
 #tabel * {
-    align-content:flex-end;
+    align-content: flex-end;
 }
 
 .element:hover {
-    --elm-size: calc(68px * 2);
-    position: relative;
-    display: block;
-    top: calc(-1 * (var(--elm-size) * 0.25));
-    left: calc(-1 * (var(--elm-size) * 0.25));
-    align-self: center;
     z-index: 2;
 }
 

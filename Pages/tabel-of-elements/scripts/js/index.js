@@ -35,8 +35,8 @@
             var element = res[i].elements[n]
             var elementElm = document.createElement('div')
 
-            elementElm.style.gridColumn = (i + 1).toString()
-            elementElm.style.gridRow = (n + 1).toString()
+            elementElm.style.setProperty('--coloum', (i + 1).toString())
+            elementElm.style.setProperty('--row', (n + 1).toString())
 
             elementElm.classList.add('element')
 
@@ -62,7 +62,7 @@
             var shell = document.createElement('div')
             shell.classList.add('shell')
 
-            elementElm.append(name, symbol, info, shell)
+            elementElm.append(info, symbol, name, shell)
             elementElm.style.background = colourMap[element.cat] || ''
 
             groupElm.appendChild(elementElm)
