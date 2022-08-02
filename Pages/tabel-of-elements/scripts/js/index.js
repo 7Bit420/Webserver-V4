@@ -8,8 +8,8 @@
 
     const res = JSON.parse(req.responseText)
 
-    var width = 0
-    var height = 0
+    var width = 1
+    var height = 1
 
     const colourMap = {
         'Reactive nonmetals': '#2a4165',
@@ -80,12 +80,15 @@
         console.info('Width', width)
         console.info('Height', height)
         console.groupEnd()
+        var elmSize = 0
         if ((innerWidth / width) < (innerHeight / height)) {
-            document.body.style.setProperty('--elm-size', `${Math.round(innerWidth / width) - 8}px`)
+            elmSize = (Math.round(innerWidth / width) - 6 + (6 / width))
         } else {
-            document.body.style.setProperty('--elm-size', `${Math.round(innerHeight / height) - 8}px`)
-
+            elmSize = (Math.round(innerHeight / height) - 6 + (6 / height))
         }
+        document.body.style.width = `${innerWidth - elmSize}px`
+        document.body.style.height = `${innerHeight - elmSize}px`
+        document.body.style.setProperty('--elm-size', `${elmSize}px`)
     }
 
     upddateBounds()

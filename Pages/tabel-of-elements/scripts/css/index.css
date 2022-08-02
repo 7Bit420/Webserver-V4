@@ -4,20 +4,15 @@
     padding: 0px;
     margin: 0px;
     border: none;
-    --border-offest: 20px;
 }
 
 body {
-    --elm-size: 9vh;
+    margin: calc(var(--elm-size) / 2);
     --elm-margin: 3px;
-    --coloums: 0;
-    --rows: 0;
     overflow: hidden;
 }
 
 main {
-    --margin: var(--border-offest);
-    margin: calc(var(--margin) / 2);
     width: calc(100vw - var(--margin));
     height: calc(100vh - var(--margin));
     background: transparent;
@@ -25,6 +20,7 @@ main {
 }
 
 .element {
+    position: absolute;
     background: var(--background-2);
     width: var(--elm-size);
     height: var(--elm-size);
@@ -33,8 +29,8 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: calc(var(--elm-size) * 0.2) calc(var(--elm-size) * 0.6) calc(var(--elm-size) * 0.2);
-    grid-row: var(--row);
-    grid-column: var(--coloum);
+    top: calc(var(--elm-margin) + ((var(--row) - 0.85) * (var(--elm-size) + (var(--elm-margin) * 2))));
+    left: calc(var(--elm-margin) + ((var(--coloum) - 0.85) * (var(--elm-size) + (var(--elm-margin) * 2))));
 }
 
 .element.thin {
@@ -53,10 +49,7 @@ main {
 }
 
 #tabel {
-    display: grid;
     overflow: visible;
-    grid-template-rows: repeat(var(--rows), calc(var(--elm-size) + (var(--elm-margin) * 2)));
-    grid-template-columns: repeat(var(--coloums), calc(var(--elm-size) + (var(--elm-margin) * 2)));
 }
 
 #tabel * {
@@ -65,6 +58,7 @@ main {
 
 .element:hover {
     z-index: 2;
+    scale: 1.5;
 }
 
 .element>* {
