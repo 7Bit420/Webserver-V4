@@ -1,6 +1,5 @@
 {
-    "redirects": [],
-    "token": "OTY1NTE1MTI5Njc4NjAyMjgw.Yl0UCQ.bhWR1BvyVCiMRqOqpFjmzvmqtsU",
+    "token": "No Luck",
     "intents": [
         "DIRECT_MESSAGES",
         "DIRECT_MESSAGE_REACTIONS",
@@ -19,7 +18,7 @@
         "GUILD_VOICE_STATES",
         "GUILD_WEBHOOKS"
     ],
-    "musicPath": "/Users/michael/Music/Music/Media.localized/Music",
-    "songPath": "/Users/michael/Desktop/code/Progects/Webserver-V4/Discord-Bot/config/songs.json"
+    "musicPath": "Path to your music",
+    "songPath": "Path to a songs.json file"
 }
 
