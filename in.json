@@ -1,0 +1,595 @@
+[
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_001_hydrogen/element_001_hydrogen.glb",
+        "name": "Hydrogen",
+        "atn": 1
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_002_helium/element_002_helium.glb",
+        "name": "Helium",
+        "atn": 2
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_003_lithium/element_003_lithium.glb",
+        "name": "Lithium",
+        "atn": 3
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_004_beryllium/element_004_beryllium.glb",
+        "name": "Beryllium",
+        "atn": 4
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_005_boron/element_005_boron.glb",
+        "name": "Boron",
+        "atn": 5
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_006_carbon/element_006_carbon.glb",
+        "name": "Carbon",
+        "atn": 6
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_007_nitrogen/element_007_nitrogen.glb",
+        "name": "Nitrogen",
+        "atn": 7
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_008_oxygen/element_008_oxygen.glb",
+        "name": "Oxygen",
+        "atn": 8
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_009_fluorine/element_009_fluorine.glb",
+        "name": "Fluorine",
+        "atn": 9
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_010_neon/element_010_neon.glb",
+        "name": "Neon",
+        "atn": 10
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_011_sodium/element_011_sodium.glb",
+        "name": "Sodium",
+        "atn": 11
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_012_magnesium/element_012_magnesium.glb",
+        "name": "Magnesium",
+        "atn": 12
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_013_aluminum/element_013_aluminum.glb",
+        "name": "Aluminium",
+        "atn": 13
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_014_silicon/element_014_silicon.glb",
+        "name": "Silicon",
+        "atn": 14
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_015_phosphorus/element_015_phosphorus.glb",
+        "name": "Phosphorus",
+        "atn": 15
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_016_sulfur/element_016_sulfur.glb",
+        "name": "Sulfur",
+        "atn": 16
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_017_chlorine/element_017_chlorine.glb",
+        "name": "Chlorine",
+        "atn": 17
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_018_argon/element_018_argon.glb",
+        "name": "Argon",
+        "atn": 18
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_019_potassium/element_019_potassium.glb",
+        "name": "Potassium",
+        "atn": 19
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_020_calcium/element_020_calcium.glb",
+        "name": "Calcium",
+        "atn": 20
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_021_scandium/element_021_scandium.glb",
+        "name": "Scandium",
+        "atn": 21
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_022_titanium/element_022_titanium.glb",
+        "name": "Titanium",
+        "atn": 22
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_023_vanadium/element_023_vanadium.glb",
+        "name": "Vanadium",
+        "atn": 23
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_024_chromium/element_024_chromium.glb",
+        "name": "Chromium",
+        "atn": 24
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_025_manganese/element_025_manganese.glb",
+        "name": "Manganese",
+        "atn": 25
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_026_iron/element_026_iron.glb",
+        "name": "Iron",
+        "atn": 26
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_027_cobalt/element_027_cobalt.glb",
+        "name": "Cobalt",
+        "atn": 27
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_028_nickel/element_028_nickel.glb",
+        "name": "Nickel",
+        "atn": 28
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_029_copper/element_029_copper.glb",
+        "name": "Copper",
+        "atn": 29
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_030_zinc/element_030_zinc.glb",
+        "name": "Zinc",
+        "atn": 30
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_031_gallium/element_031_gallium.glb",
+        "name": "Gallium",
+        "atn": 31
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_032_germanium/element_032_germanium.glb",
+        "name": "Germanium",
+        "atn": 32
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_033_arsenic/element_033_arsenic.glb",
+        "name": "Arsenic",
+        "atn": 33
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_034_selenium/element_034_selenium.glb",
+        "name": "Selenium",
+        "atn": 34
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_035_bromine/element_035_bromine.glb",
+        "name": "Bromine",
+        "atn": 35
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_036_krypton/element_036_krypton.glb",
+        "name": "Krypton",
+        "atn": 36
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_037_rubidium/element_037_rubidium.glb",
+        "name": "Rubidium",
+        "atn": 37
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_038_strontium/element_038_strontium.glb",
+        "name": "Strontium",
+        "atn": 38
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_039_yttrium/element_039_yttrium.glb",
+        "name": "Yttrium",
+        "atn": 39
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_040_zirconium/element_040_zirconium.glb",
+        "name": "Zirconium",
+        "atn": 40
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_041_niobium/element_041_niobium.glb",
+        "name": "Niobium",
+        "atn": 41
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_042_molybdenum/element_042_molybdenum.glb",
+        "name": "Molybdenum",
+        "atn": 42
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_043_technetium/element_043_technetium.glb",
+        "name": "Technetium",
+        "atn": 43
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_044_ruthenium/element_044_ruthenium.glb",
+        "name": "Ruthenium",
+        "atn": 44
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_045_rhodium/element_045_rhodium.glb",
+        "name": "Rhodium",
+        "atn": 45
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_046_palladium/element_046_palladium.glb",
+        "name": "Palladium",
+        "atn": 46
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_047_silver/element_047_silver.glb",
+        "name": "Silver",
+        "atn": 47
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_048_cadmium/element_048_cadmium.glb",
+        "name": "Cadmium",
+        "atn": 48
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_049_indium/element_049_indium.glb",
+        "name": "Indium",
+        "atn": 49
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_050_tin/element_050_tin.glb",
+        "name": "Tin",
+        "atn": 50
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_051_antimony/element_051_antimony.glb",
+        "name": "Antimony",
+        "atn": 51
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_052_tellurium/element_052_tellurium.glb",
+        "name": "Tellurium",
+        "atn": 52
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_053_iodine/element_053_iodine.glb",
+        "name": "Iodine",
+        "atn": 53
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_054_xenon/element_054_xenon.glb",
+        "name": "Xenon",
+        "atn": 54
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_055_cesium/element_055_cesium.glb",
+        "name": "Cesium",
+        "atn": 55
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_056_barium/element_056_barium.glb",
+        "name": "Barium",
+        "atn": 56
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_057_lanthanum/element_057_lanthanum.glb",
+        "name": "Lanthanum",
+        "atn": 57
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_058_cerium/element_058_cerium.glb",
+        "name": "Cerium",
+        "atn": 58
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_059_praseodymium/element_059_praseodymium.glb",
+        "name": "Praseodymium",
+        "atn": 59
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_060_neodymium/element_060_neodymium.glb",
+        "name": "Neodymium",
+        "atn": 60
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_061_promethium/element_061_promethium.glb",
+        "name": "Promethium",
+        "atn": 61
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_062_samarium/element_062_samarium.glb",
+        "name": "Samarium",
+        "atn": 62
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_063_europium/element_063_europium.glb",
+        "name": "Europium",
+        "atn": 63
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_064_gadolinium/element_064_gadolinium.glb",
+        "name": "Gadolinium",
+        "atn": 64
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_065_terbium/element_065_terbium.glb",
+        "name": "Terbium",
+        "atn": 65
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_066_dysprosium/element_066_dysprosium.glb",
+        "name": "Dysprosium",
+        "atn": 66
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_067_holmium/element_067_holmium.glb",
+        "name": "Holmium",
+        "atn": 67
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_068_erbium/element_068_erbium.glb",
+        "name": "Erbium",
+        "atn": 68
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_069_thulium/element_069_thulium.glb",
+        "name": "Thulium",
+        "atn": 69
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_070_ytterbium/element_070_ytterbium.glb",
+        "name": "Ytterbium",
+        "atn": 70
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_071_lutetium/element_071_lutetium.glb",
+        "name": "Lutetium",
+        "atn": 71
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_072_hafnium/element_072_hafnium.glb",
+        "name": "Hafnium",
+        "atn": 72
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_073_tantalum/element_073_tantalum.glb",
+        "name": "Tantalum",
+        "atn": 73
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_074_tungsten/element_074_tungsten.glb",
+        "name": "Tungsten",
+        "atn": 74
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_075_rhenium/element_075_rhenium.glb",
+        "name": "Rhenium",
+        "atn": 75
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_076_osmium/element_076_osmium.glb",
+        "name": "Osmium",
+        "atn": 76
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_077_iridium/element_077_iridium.glb",
+        "name": "Iridium",
+        "atn": 77
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_078_platinum/element_078_platinum.glb",
+        "name": "Platinum",
+        "atn": 78
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_079_gold/element_079_gold.glb",
+        "name": "Gold",
+        "atn": 79
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_080_mercury/element_080_mercury.glb",
+        "name": "Mercury",
+        "atn": 80
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_081_thallium/element_081_thallium.glb",
+        "name": "Thallium",
+        "atn": 81
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_082_lead/element_082_lead.glb",
+        "name": "Lead",
+        "atn": 82
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_083_bismuth/element_083_bismuth.glb",
+        "name": "Bismuth",
+        "atn": 83
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_084_polonium/element_084_polonium.glb",
+        "name": "Polonium",
+        "atn": 84
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_085_astatine/element_085_astatine.glb",
+        "name": "Astatine",
+        "atn": 85
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_086_radon/element_086_radon.glb",
+        "name": "Radon",
+        "atn": 86
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_087_francium/element_087_francium.glb",
+        "name": "Francium",
+        "atn": 87
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_088_radium/element_088_radium.glb",
+        "name": "Radium",
+        "atn": 88
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_089_actinium/element_089_actinium.glb",
+        "name": "Actinium",
+        "atn": 89
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_090_thorium/element_090_thorium.glb",
+        "name": "Thorium",
+        "atn": 90
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_091_protactinium/element_091_protactinium.glb",
+        "name": "Protactinium",
+        "atn": 91
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_092_uranium/element_092_uranium.glb",
+        "name": "Uranium",
+        "atn": 92
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_093_neptunium/element_093_neptunium.glb",
+        "name": "Neptunium",
+        "atn": 93
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_094_plutonium/element_094_plutonium.glb",
+        "name": "Plutonium",
+        "atn": 94
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_095_americium/element_095_americium.glb",
+        "name": "Americium",
+        "atn": 95
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_096_curium/element_096_curium.glb",
+        "name": "Curium",
+        "atn": 96
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_097_berkelium/element_097_berkelium.glb",
+        "name": "Berkelium",
+        "atn": 97
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_098_californium/element_098_californium.glb",
+        "name": "Californium",
+        "atn": 98
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_099_einsteinium/element_099_einsteinium.glb",
+        "name": "Einsteinium",
+        "atn": 99
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_100_fermium/element_100_fermium.glb",
+        "name": "Fermium",
+        "atn": 100
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_101_mendelevium/element_101_mendelevium.glb",
+        "name": "Mendelevium",
+        "atn": 101
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_102_nobelium/element_102_nobelium.glb",
+        "name": "Nobelium",
+        "atn": 102
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_103_lawrencium/element_103_lawrencium.glb",
+        "name": "Lawrencium",
+        "atn": 103
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_104_rutherfordium/element_104_rutherfordium.glb",
+        "name": "Rutherfordium",
+        "atn": 104
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_105_dubnium/element_105_dubnium.glb",
+        "name": "Dubnium",
+        "atn": 105
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_106_seaborgium/element_106_seaborgium.glb",
+        "name": "Seaborgium",
+        "atn": 106
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_107_bohrium/element_107_bohrium.glb",
+        "name": "Bohrium",
+        "atn": 107
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_108_hassium/element_108_hassium.glb",
+        "name": "Hassium",
+        "atn": 108
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_109_meitnerium/element_109_meitnerium.glb",
+        "name": "Meitnerium",
+        "atn": 109
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_110_darmstadtium/element_110_darmstadtium.glb",
+        "name": "Darmstadtium",
+        "atn": 110
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_111_roentgenium/element_111_roentgenium.glb",
+        "name": "Roentgenium",
+        "atn": 111
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_112_copernicium/element_112_copernicium.glb",
+        "name": "Copernicium",
+        "atn": 112
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_113_nihonium/element_113_nihonium.glb",
+        "name": "Nihonium",
+        "atn": 113
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_114_flerovium/element_114_flerovium.glb",
+        "name": "Flerovium",
+        "atn": 114
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_115_moscovium/element_115_moscovium.glb",
+        "name": "Moscovium",
+        "atn": 115
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_116_livermorium/element_116_livermorium.glb",
+        "name": "Livermorium",
+        "atn": 116
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_117_tennessine/element_117_tennessine.glb",
+        "name": "Tennessine",
+        "atn": 117
+    },
+    {
+        "url": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_118_oganesson/element_118_oganesson.glb",
+        "name": "Oganesson",
+        "atn": 118
+    },
+    {
+        "name": "Ununennium"
+    }
+]

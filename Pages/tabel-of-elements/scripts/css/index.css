@@ -102,4 +102,5 @@ main {
     height: calc(var(--elm-size) * 1);
     float: right;
     grid-column: 2 / 2;
+    font-size: calc(var(--elm-size) * 0.12);
 }

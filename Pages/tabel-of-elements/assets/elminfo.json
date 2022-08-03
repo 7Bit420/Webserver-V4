@@ -17,7 +17,7 @@
         "ionization_energies": [
             1312
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_001_hydrogen/element_001_hydrogen.glb",
+        "elem_model": "assets/models/Hydrogen.glb",
         "atn": 1,
         "group": 0,
         "cat": "Reactive nonmetals"
@@ -41,7 +41,7 @@
             2372.3,
             5250.5
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_002_helium/element_002_helium.glb",
+        "elem_model": "assets/models/Helium.glb",
         "atn": 2,
         "group": 17,
         "cat": "Noble gases"
@@ -67,7 +67,7 @@
             7298.1,
             11815
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_003_lithium/element_003_lithium.glb",
+        "elem_model": "assets/models/Lithium.glb",
         "atn": 3,
         "group": 1,
         "cat": "Alcline metals"
@@ -94,7 +94,7 @@
             14848.7,
             21006.6
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_004_beryllium/element_004_beryllium.glb",
+        "elem_model": "assets/models/Beryllium.glb",
         "atn": 4,
         "group": 1,
         "cat": "Alcline earth metals"
@@ -122,7 +122,7 @@
             25025.8,
             32826.7
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_005_boron/element_005_boron.glb",
+        "elem_model": "assets/models/Boron.glb",
         "atn": 5,
         "group": 12,
         "cat": "Metalloids"
@@ -151,7 +151,7 @@
             37831,
             47277
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_006_carbon/element_006_carbon.glb",
+        "elem_model": "assets/models/Carbon.glb",
         "atn": 6,
         "group": 13,
         "cat": "Nonmetals"
@@ -181,7 +181,7 @@
             53266.6,
             64360
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_007_nitrogen/element_007_nitrogen.glb",
+        "elem_model": "assets/models/Nitrogen.glb",
         "atn": 7,
         "group": 14,
         "cat": "Nonmetals"
@@ -212,7 +212,7 @@
             71330,
             84078
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_008_oxygen/element_008_oxygen.glb",
+        "elem_model": "assets/models/Oxygen.glb",
         "atn": 8,
         "group": 15,
         "cat": "Nonmetals"
@@ -244,7 +244,7 @@
             92038.1,
             106434.3
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_009_fluorine/element_009_fluorine.glb",
+        "elem_model": "assets/models/Fluorine.glb",
         "atn": 9,
         "group": 16,
         "cat": "Nonmetals"
@@ -277,7 +277,7 @@
             115379.5,
             131432
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_010_neon/element_010_neon.glb",
+        "elem_model": "assets/models/Neon.glb",
         "atn": 10,
         "group": 17,
         "cat": "Noble gases"
@@ -312,7 +312,7 @@
             141362,
             159076
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_011_sodium/element_011_sodium.glb",
+        "elem_model": "assets/models/Sodium.glb",
         "atn": 11,
         "group": 1,
         "cat": "Alcline metals"
@@ -348,7 +348,7 @@
             169988,
             189368
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_012_magnesium/element_012_magnesium.glb",
+        "elem_model": "assets/models/Magnesium.glb",
         "atn": 12,
         "group": 1,
         "cat": "Alcline earth metals"
@@ -385,7 +385,7 @@
             201266,
             222316
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_013_aluminum/element_013_aluminum.glb",
+        "elem_model": "assets/models/Aluminium.glb",
         "atn": 13,
         "group": 12,
         "cat": "Post-transition metals"
@@ -423,7 +423,7 @@
             235196,
             257923
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_014_silicon/element_014_silicon.glb",
+        "elem_model": "assets/models/Silicon.glb",
         "atn": 14,
         "group": 13,
         "cat": "Metalloids"
@@ -462,7 +462,7 @@
             271791,
             296195
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_015_phosphorus/element_015_phosphorus.glb",
+        "elem_model": "assets/models/Phosphorus.glb",
         "atn": 15,
         "group": 14,
         "cat": "Nonmetals"
@@ -502,7 +502,7 @@
             311048,
             337138
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_016_sulfur/element_016_sulfur.glb",
+        "elem_model": "assets/models/Sulfur.glb",
         "atn": 16,
         "group": 15,
         "cat": "Nonmetals"
@@ -543,7 +543,7 @@
             352994,
             380760
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_017_chlorine/element_017_chlorine.glb",
+        "elem_model": "assets/models/Chlorine.glb",
         "atn": 17,
         "group": 16,
         "cat": "Nonmetals"
@@ -585,7 +585,7 @@
             397605,
             427066
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_018_argon/element_018_argon.glb",
+        "elem_model": "assets/models/Argon.glb",
         "atn": 18,
         "group": 17,
         "cat": "Noble gases"
@@ -629,7 +629,7 @@
             444880,
             476063
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_019_potassium/element_019_potassium.glb",
+        "elem_model": "assets/models/Potassium.glb",
         "atn": 19,
         "group": 1,
         "cat": "Alcline metals"
@@ -674,7 +674,7 @@
             494850,
             527762
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_020_calcium/element_020_calcium.glb",
+        "elem_model": "assets/models/Calcium.glb",
         "atn": 20,
         "group": 1,
         "cat": "Alcline earth metals"
@@ -720,7 +720,7 @@
             547530,
             582163
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_021_scandium/element_021_scandium.glb",
+        "elem_model": "assets/models/Scandium.glb",
         "atn": 21,
         "group": 2,
         "cat": "Transition metals"
@@ -767,7 +767,7 @@
             602930,
             639294
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_022_titanium/element_022_titanium.glb",
+        "elem_model": "assets/models/Titanium.glb",
         "atn": 22,
         "group": 3,
         "cat": "Transition metals"
@@ -815,7 +815,7 @@
             661050,
             699144
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_023_vanadium/element_023_vanadium.glb",
+        "elem_model": "assets/models/Vanadium.glb",
         "atn": 23,
         "group": 4,
         "cat": "Transition metals"
@@ -864,7 +864,7 @@
             721870,
             761733
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_024_chromium/element_024_chromium.glb",
+        "elem_model": "assets/models/Chromium.glb",
         "atn": 24,
         "group": 5,
         "cat": "Transition metals"
@@ -914,7 +914,7 @@
             785450,
             827067
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_025_manganese/element_025_manganese.glb",
+        "elem_model": "assets/models/Manganese.glb",
         "atn": 25,
         "group": 6,
         "cat": "Transition metals"
@@ -965,7 +965,7 @@
             851800,
             895161
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_026_iron/element_026_iron.glb",
+        "elem_model": "assets/models/Iron.glb",
         "atn": 26,
         "group": 7,
         "cat": "Transition metals"
@@ -1017,7 +1017,7 @@
             920870,
             966023
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_027_cobalt/element_027_cobalt.glb",
+        "elem_model": "assets/models/Cobalt.glb",
         "atn": 27,
         "group": 8,
         "cat": "Transition metals"
@@ -1070,7 +1070,7 @@
             992718,
             1039668
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_028_nickel/element_028_nickel.glb",
+        "elem_model": "assets/models/Nickel.glb",
         "atn": 28,
         "group": 9,
         "cat": "Transition metals"
@@ -1124,7 +1124,7 @@
             1067358,
             1116105
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_029_copper/element_029_copper.glb",
+        "elem_model": "assets/models/Copper.glb",
         "atn": 29,
         "group": 10,
         "cat": "Transition metals"
@@ -1170,7 +1170,7 @@
             71200,
             179100
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_030_zinc/element_030_zinc.glb",
+        "elem_model": "assets/models/Zinc.glb",
         "atn": 30,
         "group": 11,
         "cat": "Transition metals"
@@ -1199,7 +1199,7 @@
             2963,
             6180
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_031_gallium/element_031_gallium.glb",
+        "elem_model": "assets/models/Gallium.glb",
         "atn": 31,
         "group": 12,
         "cat": "Post-transition metals"
@@ -1229,7 +1229,7 @@
             4411,
             9020
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_032_germanium/element_032_germanium.glb",
+        "elem_model": "assets/models/Germanium.glb",
         "atn": 32,
         "group": 13,
         "cat": "Metalloids"
@@ -1260,7 +1260,7 @@
             6043,
             12310
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_033_arsenic/element_033_arsenic.glb",
+        "elem_model": "assets/models/Arsenic.glb",
         "atn": 33,
         "group": 14,
         "cat": "Metalloids"
@@ -1292,7 +1292,7 @@
             7880,
             14990
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_034_selenium/element_034_selenium.glb",
+        "elem_model": "assets/models/Selenium.glb",
         "atn": 34,
         "group": 15,
         "cat": "Nonmetals"
@@ -1325,7 +1325,7 @@
             9940,
             18600
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_035_bromine/element_035_bromine.glb",
+        "elem_model": "assets/models/Bromine.glb",
         "atn": 35,
         "group": 16,
         "cat": "Nonmetals"
@@ -1380,7 +1380,7 @@
             311400,
             326200
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_036_krypton/element_036_krypton.glb",
+        "elem_model": "assets/models/Krypton.glb",
         "atn": 36,
         "group": 17,
         "cat": "Noble gases"
@@ -1416,7 +1416,7 @@
             14500,
             26740
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_037_rubidium/element_037_rubidium.glb",
+        "elem_model": "assets/models/Rubidium.glb",
         "atn": 37,
         "group": 1,
         "cat": "Alcline metals"
@@ -1453,7 +1453,7 @@
             17100,
             31270
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_038_strontium/element_038_strontium.glb",
+        "elem_model": "assets/models/Strontium.glb",
         "atn": 38,
         "group": 1,
         "cat": "Alcline earth metals"
@@ -1491,7 +1491,7 @@
             19900,
             36090
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_039_yttrium/element_039_yttrium.glb",
+        "elem_model": "assets/models/Yttrium.glb",
         "atn": 39,
         "group": 2,
         "cat": "Transition metals"
@@ -1523,7 +1523,7 @@
             7752,
             9500
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_040_zirconium/element_040_zirconium.glb",
+        "elem_model": "assets/models/Zirconium.glb",
         "atn": 40,
         "group": 3,
         "cat": "Transition metals"
@@ -1556,7 +1556,7 @@
             9847,
             12100
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_041_niobium/element_041_niobium.glb",
+        "elem_model": "assets/models/Niobium.glb",
         "atn": 41,
         "group": 4,
         "cat": "Transition metals"
@@ -1612,7 +1612,7 @@
             148100,
             154500
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_042_molybdenum/element_042_molybdenum.glb",
+        "elem_model": "assets/models/Molybdenum.glb",
         "atn": 42,
         "group": 5,
         "cat": "Transition metals"
@@ -1641,7 +1641,7 @@
             1470,
             2850
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_043_technetium/element_043_technetium.glb",
+        "elem_model": "assets/models/Technetium.glb",
         "atn": 43,
         "group": 6,
         "cat": "Transition metals"
@@ -1670,7 +1670,7 @@
             1620,
             2747
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_044_ruthenium/element_044_ruthenium.glb",
+        "elem_model": "assets/models/Ruthenium.glb",
         "atn": 44,
         "group": 7,
         "cat": "Transition metals"
@@ -1699,7 +1699,7 @@
             1740,
             2997
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_045_rhodium/element_045_rhodium.glb",
+        "elem_model": "assets/models/Rhodium.glb",
         "atn": 45,
         "group": 8,
         "cat": "Transition metals"
@@ -1727,7 +1727,7 @@
             1870,
             3177
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_046_palladium/element_046_palladium.glb",
+        "elem_model": "assets/models/Palladium.glb",
         "atn": 46,
         "group": 9,
         "cat": "Transition metals"
@@ -1756,7 +1756,7 @@
             2070,
             3361
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_047_silver/element_047_silver.glb",
+        "elem_model": "assets/models/Silver.glb",
         "atn": 47,
         "group": 10,
         "cat": "Transition metals"
@@ -1785,7 +1785,7 @@
             1631.4,
             3616
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_048_cadmium/element_048_cadmium.glb",
+        "elem_model": "assets/models/Cadmium.glb",
         "atn": 48,
         "group": 11,
         "cat": "Transition metals"
@@ -1815,7 +1815,7 @@
             2704,
             5210
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_049_indium/element_049_indium.glb",
+        "elem_model": "assets/models/Indium.glb",
         "atn": 49,
         "group": 12,
         "cat": "Post-transition metals"
@@ -1846,7 +1846,7 @@
             3930.3,
             7456
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_050_tin/element_050_tin.glb",
+        "elem_model": "assets/models/Tin.glb",
         "atn": 50,
         "group": 13,
         "cat": "Post-transition metals"
@@ -1878,7 +1878,7 @@
             5400,
             10400
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_051_antimony/element_051_antimony.glb",
+        "elem_model": "assets/models/Antimony.glb",
         "atn": 51,
         "group": 14,
         "cat": "Metalloids"
@@ -1911,7 +1911,7 @@
             6820,
             13200
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_052_tellurium/element_052_tellurium.glb",
+        "elem_model": "assets/models/Tellurium.glb",
         "atn": 52,
         "group": 15,
         "cat": "Metalloids"
@@ -1940,7 +1940,7 @@
             1845.9,
             3180
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_053_iodine/element_053_iodine.glb",
+        "elem_model": "assets/models/Iodine.glb",
         "atn": 53,
         "group": 16,
         "cat": "Nonmetals"
@@ -1969,7 +1969,7 @@
             2046.4,
             3099.4
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_054_xenon/element_054_xenon.glb",
+        "elem_model": "assets/models/Xenon.glb",
         "atn": 54,
         "group": 17,
         "cat": "Noble gases"
@@ -1999,7 +1999,7 @@
             2234.3,
             3400
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_055_cesium/element_055_cesium.glb",
+        "elem_model": "assets/models/Cesium.glb",
         "atn": 55,
         "group": 1,
         "cat": "Alcline metals"
@@ -2029,7 +2029,7 @@
             965.2,
             3600
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_056_barium/element_056_barium.glb",
+        "elem_model": "assets/models/Barium.glb",
         "atn": 56,
         "group": 1,
         "cat": "Alcline earth metals"
@@ -2061,7 +2061,7 @@
             4819,
             5940
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_057_lanthanum/element_057_lanthanum.glb",
+        "elem_model": "assets/models/Lanthanum.glb",
         "atn": 57,
         "group": 2,
         "cat": "Lanthanides"
@@ -2094,7 +2094,7 @@
             6325,
             7490
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_058_cerium/element_058_cerium.glb",
+        "elem_model": "assets/models/Cerium.glb",
         "atn": 58,
         "group": 3,
         "cat": "Lanthanides"
@@ -2126,7 +2126,7 @@
             3761,
             5551
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_059_praseodymium/element_059_praseodymium.glb",
+        "elem_model": "assets/models/Praseodymium.glb",
         "atn": 59,
         "group": 4,
         "cat": "Lanthanides"
@@ -2157,7 +2157,7 @@
             2130,
             3900
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_060_neodymium/element_060_neodymium.glb",
+        "elem_model": "assets/models/Neodymium.glb",
         "atn": 60,
         "group": 5,
         "cat": "Lanthanides"
@@ -2188,7 +2188,7 @@
             2150,
             3970
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_061_promethium/element_061_promethium.glb",
+        "elem_model": "assets/models/Promethium.glb",
         "atn": 61,
         "group": 6,
         "cat": "Lanthanides"
@@ -2219,7 +2219,7 @@
             2260,
             3990
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_062_samarium/element_062_samarium.glb",
+        "elem_model": "assets/models/Samarium.glb",
         "atn": 62,
         "group": 7,
         "cat": "Lanthanides"
@@ -2250,7 +2250,7 @@
             2404,
             4120
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_063_europium/element_063_europium.glb",
+        "elem_model": "assets/models/Europium.glb",
         "atn": 63,
         "group": 8,
         "cat": "Lanthanides"
@@ -2281,7 +2281,7 @@
             1990,
             4250
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_064_gadolinium/element_064_gadolinium.glb",
+        "elem_model": "assets/models/Gadolinium.glb",
         "atn": 64,
         "group": 9,
         "cat": "Lanthanides"
@@ -2312,7 +2312,7 @@
             2114,
             3839
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_065_terbium/element_065_terbium.glb",
+        "elem_model": "assets/models/Terbium.glb",
         "atn": 65,
         "group": 10,
         "cat": "Lanthanides"
@@ -2343,7 +2343,7 @@
             2200,
             3990
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_066_dysprosium/element_066_dysprosium.glb",
+        "elem_model": "assets/models/Dysprosium.glb",
         "atn": 66,
         "group": 11,
         "cat": "Lanthanides"
@@ -2374,7 +2374,7 @@
             2204,
             4100
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_067_holmium/element_067_holmium.glb",
+        "elem_model": "assets/models/Holmium.glb",
         "atn": 67,
         "group": 12,
         "cat": "Lanthanides"
@@ -2405,7 +2405,7 @@
             2194,
             4120
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_068_erbium/element_068_erbium.glb",
+        "elem_model": "assets/models/Erbium.glb",
         "atn": 68,
         "group": 13,
         "cat": "Lanthanides"
@@ -2436,7 +2436,7 @@
             2285,
             4120
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_069_thulium/element_069_thulium.glb",
+        "elem_model": "assets/models/Thulium.glb",
         "atn": 69,
         "group": 14,
         "cat": "Lanthanides"
@@ -2467,7 +2467,7 @@
             2417,
             4203
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_070_ytterbium/element_070_ytterbium.glb",
+        "elem_model": "assets/models/Ytterbium.glb",
         "atn": 70,
         "group": 15,
         "cat": "Lanthanides"
@@ -2499,7 +2499,7 @@
             4370,
             6445
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_071_lutetium/element_071_lutetium.glb",
+        "elem_model": "assets/models/Lutetium.glb",
         "atn": 71,
         "group": 16,
         "cat": "Lanthanides"
@@ -2530,7 +2530,7 @@
             2250,
             3216
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_072_hafnium/element_072_hafnium.glb",
+        "elem_model": "assets/models/Hafnium.glb",
         "atn": 72,
         "group": 17,
         "cat": "Transition metals"
@@ -2559,7 +2559,7 @@
             761,
             1500
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_073_tantalum/element_073_tantalum.glb",
+        "elem_model": "assets/models/Tantalum.glb",
         "atn": 73,
         "group": 4,
         "cat": "Transition metals"
@@ -2588,7 +2588,7 @@
             770,
             1700
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_074_tungsten/element_074_tungsten.glb",
+        "elem_model": "assets/models/Tungsten.glb",
         "atn": 74,
         "group": 5,
         "cat": "Transition metals"
@@ -2619,7 +2619,7 @@
             2510,
             3640
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_075_rhenium/element_075_rhenium.glb",
+        "elem_model": "assets/models/Rhenium.glb",
         "atn": 75,
         "group": 6,
         "cat": "Transition metals"
@@ -2648,7 +2648,7 @@
             840,
             1600
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_076_osmium/element_076_osmium.glb",
+        "elem_model": "assets/models/Osmium.glb",
         "atn": 76,
         "group": 7,
         "cat": "Transition metals"
@@ -2677,7 +2677,7 @@
             880,
             1600
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_077_iridium/element_077_iridium.glb",
+        "elem_model": "assets/models/Iridium.glb",
         "atn": 77,
         "group": 8,
         "cat": "Transition metals"
@@ -2706,7 +2706,7 @@
             870,
             1791
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_078_platinum/element_078_platinum.glb",
+        "elem_model": "assets/models/Platinum.glb",
         "atn": 78,
         "group": 9,
         "cat": "Transition metals"
@@ -2735,7 +2735,7 @@
             890.1,
             1980
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_079_gold/element_079_gold.glb",
+        "elem_model": "assets/models/Gold.glb",
         "atn": 79,
         "group": 10,
         "cat": "Transition metals"
@@ -2765,7 +2765,7 @@
             1810,
             3300
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_080_mercury/element_080_mercury.glb",
+        "elem_model": "assets/models/Mercury.glb",
         "atn": 80,
         "group": 11,
         "cat": "Transition metals"
@@ -2795,7 +2795,7 @@
             1971,
             2878
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_081_thallium/element_081_thallium.glb",
+        "elem_model": "assets/models/Thallium.glb",
         "atn": 81,
         "group": 12,
         "cat": "Post-transition metals"
@@ -2827,7 +2827,7 @@
             4083,
             6640
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_082_lead/element_082_lead.glb",
+        "elem_model": "assets/models/Lead.glb",
         "atn": 82,
         "group": 13,
         "cat": "Post-transition metals"
@@ -2860,7 +2860,7 @@
             5400,
             8520
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_083_bismuth/element_083_bismuth.glb",
+        "elem_model": "assets/models/Bismuth.glb",
         "atn": 83,
         "group": 14,
         "cat": "Post-transition metals"
@@ -2888,7 +2888,7 @@
         "ionization_energies": [
             812.1
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_084_polonium/element_084_polonium.glb",
+        "elem_model": "assets/models/Polonium.glb",
         "atn": 84,
         "group": 15,
         "cat": "Post-transition metals"
@@ -2916,7 +2916,7 @@
         "ionization_energies": [
             899.003
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_085_astatine/element_085_astatine.glb",
+        "elem_model": "assets/models/Astatine.glb",
         "atn": 85,
         "group": 16,
         "cat": "Post-transition metals"
@@ -2944,7 +2944,7 @@
         "ionization_energies": [
             1037
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_086_radon/element_086_radon.glb",
+        "elem_model": "assets/models/Radon.glb",
         "atn": 86,
         "group": 17,
         "cat": "Noble gases"
@@ -2973,7 +2973,7 @@
         "ionization_energies": [
             380
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_087_francium/element_087_francium.glb",
+        "elem_model": "assets/models/Francium.glb",
         "atn": 87,
         "group": 1,
         "cat": "Alcline metals"
@@ -3003,7 +3003,7 @@
             509.3,
             979
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_088_radium/element_088_radium.glb",
+        "elem_model": "assets/models/Radium.glb",
         "atn": 88,
         "group": 1,
         "cat": "Alcline earth metals"
@@ -3033,7 +3033,7 @@
             499,
             1170
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_089_actinium/element_089_actinium.glb",
+        "elem_model": "assets/models/Actinium.glb",
         "atn": 89,
         "group": 2,
         "cat": "Actinides"
@@ -3065,7 +3065,7 @@
             1930,
             2780
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_090_thorium/element_090_thorium.glb",
+        "elem_model": "assets/models/Thorium.glb",
         "atn": 90,
         "group": 3,
         "cat": "Actinides"
@@ -3094,7 +3094,7 @@
         "ionization_energies": [
             568
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_091_protactinium/element_091_protactinium.glb",
+        "elem_model": "assets/models/Protactinium.glb",
         "atn": 91,
         "group": 4,
         "cat": "Actinides"
@@ -3124,7 +3124,7 @@
             597.6,
             1420
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_092_uranium/element_092_uranium.glb",
+        "elem_model": "assets/models/Uranium.glb",
         "atn": 92,
         "group": 5,
         "cat": "Actinides"
@@ -3153,7 +3153,7 @@
         "ionization_energies": [
             604.5
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_093_neptunium/element_093_neptunium.glb",
+        "elem_model": "assets/models/Neptunium.glb",
         "atn": 93,
         "group": 6,
         "cat": "Actinides"
@@ -3182,7 +3182,7 @@
         "ionization_energies": [
             584.7
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_094_plutonium/element_094_plutonium.glb",
+        "elem_model": "assets/models/Plutonium.glb",
         "atn": 94,
         "group": 7,
         "cat": "Actinides"
@@ -3211,7 +3211,7 @@
         "ionization_energies": [
             578
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_095_americium/element_095_americium.glb",
+        "elem_model": "assets/models/Americium.glb",
         "atn": 95,
         "group": 8,
         "cat": "Actinides"
@@ -3240,7 +3240,7 @@
         "ionization_energies": [
             581
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_096_curium/element_096_curium.glb",
+        "elem_model": "assets/models/Curium.glb",
         "atn": 96,
         "group": 9,
         "cat": "Actinides"
@@ -3269,7 +3269,7 @@
         "ionization_energies": [
             601
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_097_berkelium/element_097_berkelium.glb",
+        "elem_model": "assets/models/Berkelium.glb",
         "atn": 97,
         "group": 10,
         "cat": "Actinides"
@@ -3298,7 +3298,7 @@
         "ionization_energies": [
             608
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_098_californium/element_098_californium.glb",
+        "elem_model": "assets/models/Californium.glb",
         "atn": 98,
         "group": 11,
         "cat": "Actinides"
@@ -3327,7 +3327,7 @@
         "ionization_energies": [
             619
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_099_einsteinium/element_099_einsteinium.glb",
+        "elem_model": "assets/models/Einsteinium.glb",
         "atn": 99,
         "group": 12,
         "cat": "Actinides"
@@ -3356,7 +3356,7 @@
         "ionization_energies": [
             627
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_100_fermium/element_100_fermium.glb",
+        "elem_model": "assets/models/Fermium.glb",
         "atn": 100,
         "group": 13,
         "cat": "Actinides"
@@ -3385,7 +3385,7 @@
         "ionization_energies": [
             635
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_101_mendelevium/element_101_mendelevium.glb",
+        "elem_model": "assets/models/Mendelevium.glb",
         "atn": 101,
         "group": 14,
         "cat": "Actinides"
@@ -3414,7 +3414,7 @@
         "ionization_energies": [
             642
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_102_nobelium/element_102_nobelium.glb",
+        "elem_model": "assets/models/Nobelium.glb",
         "atn": 102,
         "group": 15,
         "cat": "Actinides"
@@ -3443,7 +3443,7 @@
         "ionization_energies": [
             470
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_103_lawrencium/element_103_lawrencium.glb",
+        "elem_model": "assets/models/Lawrencium.glb",
         "atn": 103,
         "group": 16,
         "cat": "Actinides"
@@ -3472,7 +3472,7 @@
         "ionization_energies": [
             580
         ],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_104_rutherfordium/element_104_rutherfordium.glb",
+        "elem_model": "assets/models/Rutherfordium.glb",
         "atn": 104,
         "group": 17,
         "cat": "Transition metals"
@@ -3499,7 +3499,7 @@
         "electron_affinity": null,
         "electronegativity": null,
         "ionization_energies": [],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_105_dubnium/element_105_dubnium.glb",
+        "elem_model": "assets/models/Dubnium.glb",
         "atn": 105,
         "group": 4,
         "cat": "Transition metals"
@@ -3526,7 +3526,7 @@
         "electron_affinity": null,
         "electronegativity": null,
         "ionization_energies": [],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_106_seaborgium/element_106_seaborgium.glb",
+        "elem_model": "assets/models/Seaborgium.glb",
         "atn": 106,
         "group": 5,
         "cat": "Transition metals"
@@ -3553,7 +3553,7 @@
         "electron_affinity": null,
         "electronegativity": null,
         "ionization_energies": [],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_107_bohrium/element_107_bohrium.glb",
+        "elem_model": "assets/models/Bohrium.glb",
         "atn": 107,
         "group": 6,
         "cat": "Transition metals"
@@ -3580,7 +3580,7 @@
         "electron_affinity": null,
         "electronegativity": null,
         "ionization_energies": [],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_108_hassium/element_108_hassium.glb",
+        "elem_model": "assets/models/Hassium.glb",
         "atn": 108,
         "group": 7,
         "cat": "Transition metals"
@@ -3607,7 +3607,7 @@
         "electron_affinity": null,
         "electronegativity": null,
         "ionization_energies": [],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_109_meitnerium/element_109_meitnerium.glb",
+        "elem_model": "assets/models/Meitnerium.glb",
         "atn": 109,
         "group": 8,
         "cat": "Unknown"
@@ -3634,7 +3634,7 @@
         "electron_affinity": null,
         "electronegativity": null,
         "ionization_energies": [],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_110_darmstadtium/element_110_darmstadtium.glb",
+        "elem_model": "assets/models/Darmstadtium.glb",
         "atn": 110,
         "group": 9,
         "cat": "Unknown"
@@ -3661,7 +3661,7 @@
         "electron_affinity": 151,
         "electronegativity": null,
         "ionization_energies": [],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_111_roentgenium/element_111_roentgenium.glb",
+        "elem_model": "assets/models/Roentgenium.glb",
         "atn": 111,
         "group": 10,
         "cat": "Unknown"
@@ -3688,7 +3688,7 @@
         "electron_affinity": null,
         "electronegativity": null,
         "ionization_energies": [],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_112_copernicium/element_112_copernicium.glb",
+        "elem_model": "assets/models/Copernicium.glb",
         "atn": 112,
         "group": 11,
         "cat": "Unknown"
@@ -3715,7 +3715,7 @@
         "electron_affinity": 66.6,
         "electronegativity": null,
         "ionization_energies": [],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_113_nihonium/element_113_nihonium.glb",
+        "elem_model": "assets/models/Nihonium.glb",
         "atn": 113,
         "group": 12,
         "cat": "Unknown"
@@ -3742,7 +3742,7 @@
         "electron_affinity": null,
         "electronegativity": null,
         "ionization_energies": [],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_114_flerovium/element_114_flerovium.glb",
+        "elem_model": "assets/models/Flerovium.glb",
         "atn": 114,
         "group": 13,
         "cat": "Unknown"
@@ -3769,7 +3769,7 @@
         "electron_affinity": 35.3,
         "electronegativity": null,
         "ionization_energies": [],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_115_moscovium/element_115_moscovium.glb",
+        "elem_model": "assets/models/Moscovium.glb",
         "atn": 115,
         "group": 14,
         "cat": "Unknown"
@@ -3796,7 +3796,7 @@
         "electron_affinity": 74.9,
         "electronegativity": null,
         "ionization_energies": [],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_116_livermorium/element_116_livermorium.glb",
+        "elem_model": "assets/models/Livermorium.glb",
         "atn": 116,
         "group": 15,
         "cat": "Unknown"
@@ -3823,7 +3823,7 @@
         "electron_affinity": 165.9,
         "electronegativity": null,
         "ionization_energies": [],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_117_tennessine/element_117_tennessine.glb",
+        "elem_model": "assets/models/Tennessine.glb",
         "atn": 117,
         "group": 16,
         "cat": "Unknown"
@@ -3850,7 +3850,7 @@
         "electron_affinity": 5.40318,
         "electronegativity": null,
         "ionization_energies": [],
-        "elem_model": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_118_oganesson/element_118_oganesson.glb",
+        "elem_model": "assets/models/Oganesson.glb",
         "atn": 118,
         "group": 17,
         "cat": "Unknown"
@@ -3877,6 +3877,7 @@
         ],
         "electron_affinity": 63.87,
         "electronegativity": null,
-        "ionization_energies": []
+        "ionization_energies": [],
+        "elem_model": "assets/models/Ununennium.glb"
     }
 }

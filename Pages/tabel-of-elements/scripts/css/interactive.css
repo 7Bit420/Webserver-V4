@@ -1,13 +1,18 @@
+@import url('/scripts/css/base.css');
 
 #viewer {
     width: 30vw;
     height: 100vh;
     float: right;
+    width: var(--width);
+    height: var(--height);
 }
 
 #tabel {
-    width: 70vw;
-    height: 100vh;
+    padding: calc((100vh - var(--local-size)) / 2) 0px;
+    --local-size: calc(min((100vw - var(--width)) / var(--prevered-ratio), var(--height)));
+    height: var(--local-size);
+    width: calc(var(--local-size) * var(--prevered-ratio));
     float: left;
 }
 
@@ -15,4 +20,8 @@
     margin: 0px;
     padding: 0px;
     border: none;
+    --ratio: 2;
+    --size: calc(min(100vh / var(--ratio), 100vw));
+    --width: var(--size);
+    --height: calc(var(--size) * var(--ratio));
 }

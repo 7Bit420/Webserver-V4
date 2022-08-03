@@ -1,12 +1,25 @@
+import * as bridge from '/scripts/js/bridge.js'
+
 (async () => {
-    var req = new XMLHttpRequest()
+    var client = new bridge.client('codex.tabel-of-elements.tabel')
+    var req1 = new XMLHttpRequest()
 
-    req.open('GET', 'assets/tabel.json')
-    req.send()
+    req1.open('GET', 'assets/tabel.json')
+    req1.send()
 
-    await new Promise(res => req.onload = res)
+    await new Promise(res => req1.onload = res)
 
-    const res = JSON.parse(req.responseText)
+    var res = JSON.parse(req1.responseText)
+
+    var client = new bridge.client('codex.tabel-of-elements.tabel')
+    var req2 = new XMLHttpRequest()
+
+    req2.open('GET', 'assets/elminfo.json')
+    req2.send()
+
+    await new Promise(res => req2.onload = res)
+
+    const elmInfo = JSON.parse(req2.responseText)
 
     var width = 1
     var height = 1
@@ -31,7 +44,6 @@
         width += 1
         var localHeight = 0
         for (let n = 0; n < res[i].elements?.length; n++) {
-
             var element = res[i].elements[n]
             var elementElm = document.createElement('div')
 
@@ -61,9 +73,22 @@
 
             var shell = document.createElement('div')
             shell.classList.add('shell')
-
+            
             elementElm.append(info, symbol, name, shell)
             elementElm.style.background = colourMap[element.cat] || ''
+            
+            if (!(element.thin || element.transperent)) {
+                shell.innerText = elmInfo[element.atn].shells.join('\n')
+                ;(async (element, elementElm) => {
+                    elementElm.addEventListener('mousedown', () => {
+                        client.send({ atn: element.atn, clicked: true }, 'codex.tabel-of-elements.viewer')
+                    })
+
+                    elementElm.addEventListener('mouseover', () => {
+                        client.send({ atn: element.atn, clicked: false }, 'codex.tabel-of-elements.viewer')
+                    })
+                })(element, elementElm)
+            }
 
             groupElm.appendChild(elementElm)
         }
@@ -75,18 +100,21 @@
     document.body.style.setProperty('--rows', height)
 
     async function updateBounds() {
+        /*
         console.clear()
         await new Promise(r=>setTimeout(r,100))
         console.group('Bounds')
         console.info('Width', width)
         console.info('Height', height)
         console.groupEnd()
+        //*/
         var elmSize = 0
         var ratio = width / height
+        window.frameElement?.style?.setProperty('--prevered-ratio', ratio)
         if ((innerWidth / innerHeight) < ratio) {
-            elmSize = (Math.round(innerWidth / width) - 6)
+            elmSize = (Math.round(innerWidth / width) - 8)
         } else {
-            elmSize = (Math.round(innerHeight / (height + 0.5)) - 6)
+            elmSize = (Math.round(innerHeight / height) - 8)
         }
         document.body.style.width = `${innerWidth - elmSize}px`
         document.body.style.height = `${innerHeight - elmSize}px`

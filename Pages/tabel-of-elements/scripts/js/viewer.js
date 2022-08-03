@@ -1,5 +1,7 @@
+import * as bridge from '/scripts/js/bridge.js'
 
 (async () => {
+    var client = new bridge.client()
 
     var req1 = new XMLHttpRequest()
 
@@ -39,6 +41,7 @@
         model: document.getElementById('model'),
         icon: document.getElementById('icon'),
         description: document.getElementById('description'),
+        shells: document.getElementById('shells').querySelector('.value'),
     }
 
     const colourMap = {
@@ -61,6 +64,7 @@
         otherElms.name.innerText = info[atn].name
         otherElms.icon.style.background = colourMap[info[atn].cat]
         otherElms.description.innerText = descriptions[atn].description
+        otherElms.shells.innerText = info[atn].shells.join(', ')
         if (model) {
             updateModel(atn)
         }
@@ -71,6 +75,10 @@
     }
 
     var atn = new URLSearchParams(location.search).get('atn')
+    client.addEventListener('message', (ev) => {
+        if (!ev.data.atn) console.log(ev)
+        updateElm(ev.data.atn, ev.data.clicked)
+    })
     if (
         !info[atn]
     ) {
