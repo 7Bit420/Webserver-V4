@@ -335,7 +335,6 @@ function reconectDiscordClient() {
                     _a.label = 1;
                 case 1:
                     _a.trys.push([1, 3, , 4]);
-                    console.log(globalThis.config.token);
                     return [4 /*yield*/, client.login(globalThis.config.token)];
                 case 2:
                     _a.sent();
