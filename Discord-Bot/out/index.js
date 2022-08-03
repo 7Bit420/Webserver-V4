@@ -321,53 +321,38 @@ client.on('ready', function () { return __awaiter(void 0, void 0, void 0, functi
                 process.stdout.write(JSON.stringify({
                     type: "getConfig"
                 }));
-                setTimeout(function () {
-                    updateStatus(200);
-                });
                 return [2 /*return*/];
         }
     });
 }); });
-client.on('error', function (err) {
-    updateStatus(500);
-});
-(function () { return __awaiter(void 0, void 0, void 0, function () {
-    var error_1, p, n;
-    return __generator(this, function (_a) {
-        switch (_a.label) {
-            case 0:
-                _a.trys.push([0, 2, , 3]);
-                return [4 /*yield*/, client.login(globalThis.config.token)];
-            case 1:
-                _a.sent();
-                return [3 /*break*/, 3];
-            case 2:
-                error_1 = _a.sent();
-                p = true;
-                n = setInterval(function () { return __awaiter(void 0, void 0, void 0, function () {
-                    var error_2;
-                    return __generator(this, function (_a) {
-                        switch (_a.label) {
-                            case 0:
-                                _a.trys.push([0, 2, , 3]);
-                                return [4 /*yield*/, client.login(globalThis.config.token)];
-                            case 1:
-                                _a.sent();
-                                clearInterval(n);
-                                return [3 /*break*/, 3];
-                            case 2:
-                                error_2 = _a.sent();
-                                if (p) {
-                                    updateStatus(500);
-                                    p = false;
-                                }
-                                return [3 /*break*/, 3];
-                            case 3: return [2 /*return*/];
-                        }
-                    });
-                }); }, 1000 * 10);
-                return [3 /*break*/, 3];
-            case 3: return [2 /*return*/];
-        }
+function reconectDiscordClient() {
+    return __awaiter(this, void 0, void 0, function () {
+        var err_1;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0:
+                    if (!true) return [3 /*break*/, 5];
+                    _a.label = 1;
+                case 1:
+                    _a.trys.push([1, 3, , 4]);
+                    console.log(globalThis.config.token);
+                    return [4 /*yield*/, client.login(globalThis.config.token)];
+                case 2:
+                    _a.sent();
+                    updateStatus(200);
+                    return [3 /*break*/, 5];
+                case 3:
+                    err_1 = _a.sent();
+                    updateStatus(500);
+                    return [3 /*break*/, 4];
+                case 4: return [3 /*break*/, 0];
+                case 5: return [2 /*return*/];
+            }
+        });
     });
-}); })();
+}
+reconectDiscordClient();
+client.on('error', function (err) {
+    console.log(err);
+    reconectDiscordClient();
+});

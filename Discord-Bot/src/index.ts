@@ -20,7 +20,7 @@ const commandManifiest: NodeJS.Dict<{
 const commands = new Map();
 const commandIdMap = new Map()
 const client = new discord.Client({
-    intents: globalThis.config.intents
+    intents: globalThis.config.intents,
 })
 
 Object.assign(globalThis.config, {
@@ -178,29 +178,22 @@ client.on('ready', async () => {
     process.stdout.write(JSON.stringify({
         type: "getConfig"
     }))
-
-    setTimeout(() => {
-        updateStatus(200)
-    })
 })
 
-client.on('error', (err) => {
-    updateStatus(500)
-});
-
-(async () => {
-
-    try {
-        await client.login(globalThis.config.token)
-    } catch (error) {
-        var p = true
-        var n =
-            setInterval(async () => {
-                try {
-                    await client.login(globalThis.config.token)
-                    clearInterval(n)
-                } catch (error) { if (p) { updateStatus(500); p = false } }
-            }, 1000 * 10)
+async function reconectDiscordClient() {
+    while (true) {
+        try {
+            await client.login(globalThis.config.token)
+            updateStatus(200)
+            break
+        } catch (err) {
+            updateStatus(500)
+        }
     }
-})()
+}
 
+reconectDiscordClient()
+client.on('error', (err) => {
+    console.log(err)
+    reconectDiscordClient()
+})
