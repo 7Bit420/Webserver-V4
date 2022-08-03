@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viewer</title>
+
+    <link rel="stylesheet" href="scripts/css/viwer.css">
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src="scripts/js/viewer.js"></script>
+</head>
+
+<body>
+    <main>
+        <model-viewer autoplay camera-controls field-of-view="20deg" id="model"
+            src="https://storage.googleapis.com/search-ar-edu/periodic-table/element_118_oganesson/element_118_oganesson.glb">
+        </model-viewer>
+        <div id="icon">
+            <div id="atn">23</div>
+            <div id="symbol">V</div>
+            <div id="name">Vanadium</div>
+            <div id="shell"></div>
+        </div>
+        <h1 id="title">Test Elem</h1>
+        <div class="feild" id="atomic_mass">
+            <div class="name">Mass</div>
+            <div class="value">Value</div>
+        </div>
+        <div class="feild" id="boiling_points">
+            <div class="name">Boiling Point</div>
+            <div class="value">Value</div>
+        </div>
+        <div class="feild" id="density">
+            <div class="name">Density</div>
+            <div class="value">Value</div>
+        </div>
+        <div class="feild" id="melting_point">
+            <div class="name">Melting Point</div>
+            <div class="value">Value</div>
+        </div>
+        <div class="feild" id="molar_heat">
+            <div class="name">Molar Heat</div>
+            <div class="value">Value</div>
+        </div>
+        <div id="description">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam voluptatibus eveniet
+            enim quisquam soluta, rem voluptatum amet voluptate molestiae sit magnam ea quibusdam architecto recusandae
+            iste asperiores praesentium nihil itaque?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, dolore tempora! Optio nemo pariatur
+            minima animi fugit ad quos blanditiis odit asperiores beatae quidem, accusantium explicabo qui temporibus
+            minus nihil?
+        </div>
+    </main>
+</body>
+
+</html>

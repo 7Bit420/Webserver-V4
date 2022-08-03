@@ -41,7 +41,7 @@
             elementElm.classList.add('element')
 
             if (element.thin) {
-                localHeight += 0.5
+                localHeight += 1
                 elementElm.classList.add('thin')
             } else { localHeight += 1 }
 
@@ -74,23 +74,28 @@
     document.body.style.setProperty('--coloums', width)
     document.body.style.setProperty('--rows', height)
 
-    function upddateBounds() {
+    async function updateBounds() {
         console.clear()
+        await new Promise(r=>setTimeout(r,100))
         console.group('Bounds')
         console.info('Width', width)
         console.info('Height', height)
         console.groupEnd()
         var elmSize = 0
-        if ((innerWidth / width) < (innerHeight / height)) {
-            elmSize = (Math.round(innerWidth / width) - 6 + (6 / width))
+        var ratio = width / height
+        if ((innerWidth / innerHeight) < ratio) {
+            elmSize = (Math.round(innerWidth / width) - 6)
         } else {
-            elmSize = (Math.round(innerHeight / height) - 6 + (6 / height))
+            elmSize = (Math.round(innerHeight / (height + 0.5)) - 6)
         }
         document.body.style.width = `${innerWidth - elmSize}px`
         document.body.style.height = `${innerHeight - elmSize}px`
         document.body.style.setProperty('--elm-size', `${elmSize}px`)
     }
 
-    upddateBounds()
-    document.addEventListener('resize', () => upddateBounds())
+    updateBounds()
+    document.addEventListener('resize', () => updateBounds())
+
+    globalThis.update = updateBounds
 })()
+

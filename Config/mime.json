@@ -7240,8 +7240,12 @@
         "mime": "text/html"
     },
     {
-        "ext": "javascript",
+        "ext": "js",
         "mime": "text/javascript"
+    },
+    {
+        "ext": "jsx",
+        "mime": "text/jsx"
     },
     {
         "ext": "jcr-cnd",
