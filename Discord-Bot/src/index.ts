@@ -7,6 +7,7 @@ import ws from 'ws';
 var t = __dirname.split('/')
 var rootPath = t.splice(0, t.length - 1).join('/');
 delete globalThis.t;
+process.title = 'Discord Bot'
 
 var manifiest = JSON.parse(
     fs.readFileSync(rootPath + '/config/manifest.json').toString('ascii'));

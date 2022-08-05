@@ -13,6 +13,7 @@ var fsWriteSessions = new Map()
 var fsReadSessions = new Map()
 
 //#region wsClient
+process.title = 'Database-V2'
 
 var client = new ws.WebSocket('ws://localhost:5200', {
     headers: {

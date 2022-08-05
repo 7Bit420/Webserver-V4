@@ -92,6 +92,7 @@ function WSServerListner(
 wsServer.addListener('connection', WSServerListner)
 
 if (cluster.isPrimary) {
+    process.title = 'Webserver V4 Main Server'
 
     //#region wsClient
     globalThis.clid = "webserver"
@@ -278,6 +279,8 @@ if (cluster.isPrimary) {
 
     process.on('uncaughtException', logger.logError)
 } else {
+    process.title = 'Webserver V4 Fork #' + cluster.worker.id
+
     process.on('message', (msg)=>{
 
         switch (msg.method) {

@@ -5,11 +5,14 @@ const uuid = require('uuid')
 const net = require('net')
 const ws = require('ws')
 const fs = require('fs')
+const os = require('os')
 
 const config = require('./Config/settings.json');
 const processModule = require('process');
 const processes = [];
 const gloabalEvEmitter = new EventEmiter();
+
+process.title = 'Webserver V4 Process Handler';
 
 (async () => {
     if (fs.existsSync('/tmp/WS-4-Gloabl.sock')) {
@@ -200,9 +203,6 @@ process.stdin.on('data', async (data) => {
     }
 })
 
-// process.on('SIGKILL', () => exit(true))
-process.on('SIGQUIT', () => exit(true))
-
 function execFunc(...args) {
     switch (args[0]) {
 
@@ -355,22 +355,22 @@ function execFunc(...args) {
 
             client.addEventListener('message', onMessage)
             break;
+        case 'exit':
+            exit(true)
     }
 }
 
-function exit(handover) {
+function exit(restart) {
     processes.forEach(p => {
         p.process.kill()
     })
-    if (handover) {
-        var child = cp.fork(__filename, {
+    if (restart) {
+        cp.spawn('node', [__filename], {
             detached: true,
-            silent: true
+            silent: true,
+            stdio: 'ignore'
         })
-        child.unref()
-        child.disconnect()
-        child.on('spawn', () => process.exit())
-
+        process.exit()
     } else {
         process.exit()
     }
