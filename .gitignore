@@ -10,7 +10,7 @@
 /node_modules
 /Discord-Bot/node_modules
 /Logs/WebServer/main.log
-/test.js
+test*
 *.log
 /Logs/Database/main.log
 /Logs/ThreadManager/main.log
