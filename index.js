@@ -12,184 +12,191 @@ const processModule = require('process');
 const processes = [];
 const gloabalEvEmitter = new EventEmiter();
 
-process.title = 'Webserver V4 Process Handler';
+process.title = "Webserver V4 Process Handler";
+var netserver
 
-(async () => {
-    if (fs.existsSync('/tmp/WS-4-Gloabl.sock')) {
-        try {
-            net.createConnection('/tmp/WS-4-Gloabl.sock')
-                .on('error', () => { })
-                .write('{"type":"handover"}\u0004')
-        } catch { }
-        fs.unlinkSync('/tmp/WS-4-Gloabl.sock')
-        await new Promise(res => setTimeout(res, 1000))
-    }
-
-    net.createServer(function (socket) {
-        var crntPacket = '';
-
-        socket.on('data', (data) => {
-            crntPacket += data.toString('ascii')
-            if (data.at(data.length - 1) == 4) { phrasePacket() }
-        });
-
-        function phrasePacket() {
-            crntPacket = crntPacket.replace('\u0004', '')
-            var data = {}
+    ;; (async () => {
+        if (fs.existsSync('/tmp/WS-4-Gloabl.sock')) {
             try {
-                data = JSON.parse(crntPacket)
-                crntPacket = ''
-            } catch (err) { console.log(crntPacket, err); crntPacket = ''; return }
-
-            switch (data.type) {
-                case 'event':
-                    gloabalEvEmitter.emit(data.body.type, ...data.body.eventData)
-                    gloabalEvEmitter.emit('event', data.body.type, ...data.body.eventData)
-                    break;
-                case 'restart':
-                    exit(true)
-                case 'handover':
-                    exit()
-                case 'function':
-                    require(data.body.path)(...data.body.args)
-                    break;
-            }
+                net.createConnection('/tmp/WS-4-Gloabl.sock')
+                    .on('error', () => { })
+                    .write('{"type":"handover"}\u0004')
+                fs.unlinkSync('/tmp/WS-4-Gloabl.sock')
+            } catch { }
+            await new Promise(res => setTimeout(res, 1000))
         }
-    }).listen('/tmp/WS-4-Gloabl.sock');
 
-    for (let i = 0; i < config.subprocesses.length; i++) {
-        const pPath = config.subprocesses[i].path;
+        netserver = net.createServer(function (socket) {
+            var crntPacket = '';
 
-        const process = cp.spawn('node', [__dirname + '/' + pPath], {
-            env: Object.assign(processModule.env, {
-                config: JSON.stringify(config.subprocesses[i].config),
-                spawnArgs: JSON.stringify(config.subprocesses[i].spawnArgs),
-                dirname: __dirname,
-            }),
-        })
+            socket.on('data', (data) => {
+                crntPacket += data.toString('ascii')
+                if (data.at(data.length - 1) == 4) { phrasePacket() }
+            });
 
-        process.stderr.on('data', (data) => {
-            console.log("THREAD: " + pPath + "\nERR: " + data.toString('ascii'));
-        })
+            function phrasePacket() {
+                crntPacket = crntPacket.replace('\u0004', '')
+                var data = {}
+                try {
+                    data = JSON.parse(crntPacket)
+                    crntPacket = ''
+                } catch (err) { console.log(crntPacket, err); crntPacket = ''; return }
 
-        process.stdout.on('data', (d) => {
-            try {
-                var data = JSON.parse(d.toString('ascii'))
-            } catch (err) { return require('process').stdout.write(d) };
-
-            switch (data.type) {
-                case "statusUpdate":
-                    switch (data.body.state) {
-                        case 200:
-                            console.log(`THREAD ACTIVE: ${pPath}`);
-                            break;
-                        case 500:
-                            console.log(`THREAD UNACTIVE: ${pPath}`);
-                            break;
-                        default:
-                            console.log(`THREAD: ${pPath} switched to unknown state: ${data.body.state}`);
-                            break;
-                    }
-                    break;
-                case "getConfig":
-                    process.stdin.write(JSON.stringify({
-                        type: "setConfig",
-                        body: {
-                            config: config.subprocesses[i].config,
-                            spawnArgs: config.subprocesses[i].spawnArgs,
-                            dirname: __dirname
-                        }
-                    }))
-                    break;
-                case "initClient":
-                    //#region wsClient
-                    client = new ws.WebSocket('ws://localhost:5200', {
-                        headers: {
-                            id: "root"
-                        },
-                        host: 'localhost',
-                        port: 5200,
-                        protocol: 'ws'
-                    })
-
-                    client.addListener('open', () => {
-                        process.stdout.write(JSON.stringify({
-                            type: "statusUpdate",
-                            body: {
-                                state: 200
-                            }
-                        }))
-                    })
-
-                    client.addEventListener('close', onDisconect)
-
-                    async function onDisconect() {
-                        process.stdout.write(JSON.stringify({
-                            type: "statusUpdate",
-                            body: {
-                                state: 500
-                            }
-                        }))
-                        reconect()
-                    }
-
-                    async function reconect() {
-                        while (client.readyState <= 2) {
-
-                            client = new ws.WebSocket('ws://localhost:5200', {
-                                headers: {
-                                    id: "root"
-                                },
-                                host: 'localhost',
-                                port: 5200,
-                                protocol: 'ws'
-                            })
-
-                            await new Promise((res, reg) => {
-                                setTimeout(res, 5000)
-                                client.addEventListener('close', res)
-                            })
-
-                        }
-
-                        client.addEventListener('close', onDisconect);
-
-                        process.stdout.write(JSON.stringify({
-                            type: "statusUpdate",
-                            body: {
-                                state: 200
-                            }
-                        }))
-                    }
-
-                    //#endregion
-                    break;
+                switch (data.type) {
+                    case 'event':
+                        gloabalEvEmitter.emit(data.body.type, ...data.body.eventData)
+                        gloabalEvEmitter.emit('event', data.body.type, ...data.body.eventData)
+                        break;
+                    case 'restart':
+                        exit(true)
+                        break;
+                    case 'handover':
+                        exit(false)
+                        break;
+                    case 'function':
+                        require(data.body.path)(...data.body.args)
+                        break;
+                    default:
+                        console.log(data)
+                }
             }
-        })
+        }).listen('/tmp/WS-4-Gloabl.sock');
 
-        await new Promise((res) => {
+        for (let i = 0; i < config.subprocesses.length; i++) {
+            const pPath = config.subprocesses[i].path;
+
+            const process = cp.spawn('node', [__dirname + '/' + pPath], {
+                env: Object.assign(processModule.env, {
+                    config: JSON.stringify(config.subprocesses[i].config),
+                    spawnArgs: JSON.stringify(config.subprocesses[i].spawnArgs),
+                    dirname: __dirname,
+                }),
+            })
+
+            process.stderr.on('data', (data) => {
+                console.log("THREAD: " + pPath + "\nERR: " + data.toString('ascii'));
+            })
+
             process.stdout.on('data', (d) => {
                 try {
                     var data = JSON.parse(d.toString('ascii'))
-                } catch (err) { return };
+                } catch (err) { return require('process').stdout.write(d) };
 
-                if (data.type == "statusUpdate" && data.body.state == 200) res(200);
+                switch (data.type) {
+                    case "statusUpdate":
+                        switch (data.body.state) {
+                            case 200:
+                                console.log(`THREAD ACTIVE: ${pPath}`);
+                                break;
+                            case 500:
+                                console.log(`THREAD UNACTIVE: ${pPath}`);
+                                break;
+                            default:
+                                console.log(`THREAD: ${pPath} switched to unknown state: ${data.body.state}`);
+                                break;
+                        }
+                        break;
+                    case "getConfig":
+                        process.stdin.write(JSON.stringify({
+                            type: "setConfig",
+                            body: {
+                                config: config.subprocesses[i].config,
+                                spawnArgs: config.subprocesses[i].spawnArgs,
+                                dirname: __dirname
+                            }
+                        }))
+                        break;
+                    case "initClient":
+                        //#region wsClient
+                        client = new ws.WebSocket('ws://localhost:5200', {
+                            headers: {
+                                id: "root"
+                            },
+                            host: 'localhost',
+                            port: 5200,
+                            protocol: 'ws'
+                        })
+
+                        client.addListener('open', () => {
+                            process.stdout.write(JSON.stringify({
+                                type: "statusUpdate",
+                                body: {
+                                    state: 200
+                                }
+                            }))
+                        })
+
+                        client.addEventListener('close', onDisconect)
+
+                        async function onDisconect() {
+                            process.stdout.write(JSON.stringify({
+                                type: "statusUpdate",
+                                body: {
+                                    state: 500
+                                }
+                            }))
+                            reconect()
+                        }
+
+                        async function reconect() {
+                            while (client.readyState <= 2) {
+
+                                client = new ws.WebSocket('ws://localhost:5200', {
+                                    headers: {
+                                        id: "root"
+                                    },
+                                    host: 'localhost',
+                                    port: 5200,
+                                    protocol: 'ws'
+                                })
+
+                                await new Promise((res, reg) => {
+                                    setTimeout(res, 5000)
+                                    client.addEventListener('close', res)
+                                })
+
+                            }
+
+                            client.addEventListener('close', onDisconect);
+
+                            process.stdout.write(JSON.stringify({
+                                type: "statusUpdate",
+                                body: {
+                                    state: 200
+                                }
+                            }))
+                        }
+
+                        //#endregion
+                        break;
+                }
             })
-        })
 
-        processes.push({
-            process: process
-        })
+            await new Promise((res) => {
+                process.stdout.on('data', (d) => {
+                    try {
+                        var data = JSON.parse(d.toString('ascii'))
+                    } catch (err) { return };
 
-        gloabalEvEmitter.on('event', (eventName, ...args) => process.stdin.write(JSON.stringify({
-            eventName, args
-        })))
-    }
-})();
+                    if (data.type == "statusUpdate" && data.body.state == 200) res(200);
+                })
+            })
+
+            processes.push({
+                process: process
+            })
+
+            gloabalEvEmitter.on('event', (eventName, ...args) => process.stdin.write(JSON.stringify({
+                eventName, args
+            })))
+        }
+    })();
 
 process.stdin.setRawMode(true)
-process.stdin.setNoDelay(true)
 var crntCmd = ''
+
+process.on('SIGQUIT', () => exit(true))
+process.on('SIGINT', () => exit(false))
 
 process.stdin.on('data', async (data) => {
 
@@ -360,19 +367,21 @@ function execFunc(...args) {
     }
 }
 
-function exit(restart) {
-    processes.forEach(p => {
-        p.process.kill()
-    })
+async function exit(restart) {
+    while (processes.length) {
+        processes.pop().process.kill()
+    }
     if (restart) {
+        try {
+            fs.unlinkSync('/tmp/WS-4-Gloabl.sock')
+            netserver.close()
+        } catch (err) { }
         cp.spawn('node', [__filename], {
             detached: true,
-            silent: true,
             stdio: 'ignore'
-        })
-        process.exit()
+        }).on('spawn', () => process.exit(0))
     } else {
-        process.exit()
+        process.exit(0)
     }
 }
 
