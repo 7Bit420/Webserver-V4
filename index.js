@@ -199,12 +199,17 @@ process.on('SIGQUIT', () => exit(true))
 process.on('SIGINT', () => exit(false))
 
 process.stdin.on('data', async (data) => {
+    var din = data.toString('ascii')
 
-    switch (data.toString('ascii')) {
+    switch (din) {
         case '\u0003':
             exit(true)
+            break;
         case '\n':
+        case '\r':
+        case '\u0013':
             execFunc(...crntCmd.split(' '))
+            break;
         default:
             crntCmd += data.toString('ascii')
     }
