@@ -6,57 +6,75 @@ const tetrominoes = [
         name: 'idk',
         data: [
             [1, 1, 1, 1],
-        ]
+        ],
+        width: 4,
+        height: 1
     },
     {
         name: 'idk',
         data: [
             [1],
             [1, 1, 1],
-        ]
+        ],
+        width: 3,
+        height: 2
     },
     {
         name: 'idk',
         data: [
             [1],
             [1, 1, 1],
-        ]
+        ],
+        width: 3,
+        height: 2
     },
     {
         name: 'idk',
         data: [
             [0, 1],
             [1, 1, 1],
-        ]
+        ],
+        width: 3,
+        height: 2
     },
     {
         name: 'idk',
         data: [
             [0, 1, 1],
             [1, 1],
-        ]
+        ],
+        width: 3,
+        height: 2
     },
     {
         name: 'idk',
         data: [
             [1, 1],
             [0, 1, 1],
-        ]
+        ],
+        width: 3,
+        height: 2
     },
     {
         name: 'idk',
         data: [
             [1, 1],
             [1, 1],
-        ]
+        ],
+        width: 2,
+        height: 2
     },
 ];
 
 var gameElmGrid = new Array(height).fill(undefined).map(() => new Array(width));
 var gameGrid = new Array(height).fill(undefined).map(() => new Array(width));
-var index = Math.floor(Math.random() * tetrominoes.length);
 var gameRows = []
-var crntPiece = tetrominoes[index];
+var crntPiece = tetrominoes[Math.floor(Math.random() * tetrominoes.length)];
+var crntPieceInfo = {
+    maxHeight: height - crntPiece.height,
+    maxLeft: 0,
+    maxRight: width - crntPiece.width
+}
 
 function dataToColour(numb) {
     switch (numb) {
@@ -92,6 +110,15 @@ function drawPiece(data, x, y) {
     }
 }
 
+function deletePiece(data, x, y) {
+    for (let dy = 0; dy < data.length; dy++) {
+        for (let dx = 0; dx < data[dy].length; dx++) {
+            gameGrid[dy + y][dx + x] = 0
+            gameElmGrid[dy + y][dx + x].style.background = ''
+        }
+    }
+}
+
 /**
  * @param {Array<Array<number | HTMLDataElement>} srcData 
  * @param {number} data 
@@ -104,7 +131,7 @@ function calcIntersect(srcData, data, x, y) {
 
     for (let dy = 0; dy < data.length; dy++) {
         for (let dx = 0; dx < data[dy].length; dx++) {
-            if (srcData[dy + y][dx + x] == data[dy][dx]) {
+            if (srcData[dy + y][dx + x] == data[dy][dx] && srcData[dy + y][dx + x] != 0) {
                 intersectPoints.push({ x: dx + x, y: dy + x })
             }
         }
@@ -114,12 +141,13 @@ function calcIntersect(srcData, data, x, y) {
 };
 
 ; (async () => {
+
     var game = document.createElement('div')
     document.addEventListener('DOMContentLoaded', () =>
         document.getElementById('game').replaceWith(game));
     ;
 
-    function clearGrid() {
+    function initGrid() {
         for (let y = 0; y < height; y++) {
             var gridRow = document.createElement('tr')
             gameRows[y] = gridRow
@@ -132,10 +160,55 @@ function calcIntersect(srcData, data, x, y) {
         }
     }
 
-    function tick() {
-        clearGrid()
-        drawPiece(crntPiece.data, 1, 1)
+    function clearGrid() {
+        for (let y = 0; y < height; y++) {
+            for (let x = 0; x < width; x++) {
+                gameElmGrid[y][x].style.background = ''
+            }
+        }
     }
 
-    tick()
+    function minMax(min, v, max) {
+        return Math.min(Math.max(min, v), max)
+    }
+
+    function updateCrntPiece() {
+        crntPiece = tetrominoes[Math.floor(Math.random() * tetrominoes.length)]
+        crntPieceInfo = {
+            maxHeight: height - crntPiece.height,
+            maxLeft: 0,
+            maxRight: width - crntPiece.width,
+            x: 0,
+            y: 0
+        }
+    }
+
+    function movePiece(x, y) {
+        crntPieceInfo.y++
+        y = Math.min(crntPieceInfo.maxHeight, crntPieceInfo.y)
+        drawPiece(crntPiece.data, x, y)
+    }
+
+    initGrid()
+    updateCrntPiece()
+    function tick() {
+        var y = Math.min(crntPieceInfo.maxHeight, crntPieceInfo.y)
+        var x = minMax(crntPieceInfo.maxLeft, crntPieceInfo.x, crntPieceInfo.maxRight)
+        deletePiece(crntPiece.data, x, y)
+        deletePiece(crntPiece.data, x, y)
+        var intersectData = calcIntersect(gameGrid, crntPiece.data, x, Math.min(y + 1, crntPieceInfo.maxHeight))
+        if (intersectData.length > 0) {
+            console.log(intersectData, gameGrid)
+            drawPiece(crntPiece.data, x, y)
+            updateCrntPiece()
+        } else {
+            movePiece(x, y)
+        }
+        if (y == crntPieceInfo.maxHeight) {
+            updateCrntPiece()
+        }
+    }
+
+    // setInterval(tick, 500)
+    globalThis.tick = tick
 })()
