@@ -369,6 +369,7 @@ function execFunc(...args) {
             break;
         case 'exit':
             exit(true)
+            break;
     }
 }
 
@@ -377,11 +378,7 @@ async function exit(restart) {
         processes.pop().process.kill()
     }
     if (restart) {
-        try {
-            fs.unlinkSync('/tmp/WS-4-Gloabl.sock')
-            netserver.close()
-        } catch (err) { }
-        cp.spawn('node', [__filename], {
+        cp.spawn(__filename, {
             detached: true,
             stdio: 'ignore'
         }).on('spawn', () => process.exit(0))
