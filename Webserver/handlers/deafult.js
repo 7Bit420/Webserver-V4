@@ -9,7 +9,18 @@ exports.handler = function handler(
     res = http.ServerResponse.prototype
 ) {
 
-    const url = new URL(req.url, `http://${req.headers.host}`);
+    try {
+        const url = new URL(req.url, `http://${req.headers.host}`);
+    } catch (err) {
+        process.send({
+            method: 'log',
+            prams: ['normal', `IP: ${req.socket.remoteAddress} was blocked due to a susspicious request a error report has been generated`]
+        });
+        process.send({
+            method: 'log',
+            prams: ['error', err]
+        });
+    }
     const requrl = decodeURI(url.pathname)
 
     // logger.log(`${req.socket.remoteAddress} made a ${req.method} request to ${req.url}`)
