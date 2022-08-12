@@ -8,9 +8,9 @@ exports.handler = function handler(
     req = http.IncomingMessage.prototype,
     res = http.ServerResponse.prototype
 ) {
-
+    var url
     try {
-        const url = new URL(req.url, `http://${req.headers.host}`);
+        url = new URL(req.url, `http://${req.headers.host}`);
     } catch (err) {
         process.send({
             method: 'log',
@@ -20,6 +20,7 @@ exports.handler = function handler(
             method: 'log',
             prams: ['error', err]
         });
+        return;
     }
     const requrl = decodeURI(url.pathname)
 
