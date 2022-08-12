@@ -181,14 +181,20 @@ client.on('ready', async () => {
     }))
 })
 
+var active = false
+
 async function reconectDiscordClient() {
     while (true) {
         try {
             await client.login(globalThis.config.token)
             updateStatus(200)
+            active = true
             break
         } catch (err) {
-            updateStatus(500)
+            if (active) {
+                updateStatus(500)
+                active = false
+            }
         }
     }
 }

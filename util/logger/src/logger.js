@@ -6,17 +6,21 @@ class logger {
     #writeIndex = 0
     #date = new Date()
 
+    #format(date) {
+        return "\n[" + date.getSeconds().toString(10).padStart('0', 2).slice(0, 2) + ":"
+            + date.getMinutes().toString(10).padStart('0', 2).slice(0, 2) + ":"
+            + date.getHours().toString(10).padStart('0', 2).slice(0, 2) + ":"
+            + date.getDay().toString(10).padStart('0', 2).slice(0, 2) + ":"
+            + date.getMonth().toString(10).padStart('0', 2).slice(0, 2) + ":"
+            + date.getFullYear().toString(10).padStart('0', 4).slice(0, 4) + "]"
+    }
+
     logError(err = Error.prototype) {
         this.#date = new Date(Date.now())
         var errorPath = `${this.#dirpath}/errors/${err.name} [${this.#date.toUTCString()}]`
         fs.appendFileSync(
             this.#dirpath + '/main.log',
-            "\n[" + this.#date.getSeconds().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getMinutes().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getHours().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getDay().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getMonth().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getFullYear().toString(10).padStart('0', 4).slice(0, 4) + "]"
+            this.#format(this.#date)
             + " ERROR: Full report of error: \"" + err.message + "\" can be found at \"" + errorPath + "\""
         )
 
@@ -27,12 +31,7 @@ class logger {
         this.#date = new Date(Date.now())
         fs.appendFileSync(
             this.#dirpath + '/main.log',
-            "\n[" + this.#date.getSeconds().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getMinutes().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getHours().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getDay().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getMonth().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getFullYear().toString(10).padStart('0', 4).slice(0, 4) + "]"
+            this.#format(this.#date)
             + " INFO : " + message
         )
     }
@@ -41,12 +40,7 @@ class logger {
         this.#date = new Date(Date.now())
         fs.appendFileSync(
             this.#dirpath + '/main.log',
-            "\n[" + this.#date.getSeconds().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getMinutes().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getHours().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getDay().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getMonth().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getFullYear().toString(10).padStart('0', 4).slice(0, 4) + "]"
+            this.#format(this.#date)
             + " DEBUG: " + message
         )
     }
@@ -55,12 +49,7 @@ class logger {
         this.#date = new Date(Date.now())
         fs.appendFileSync(
             this.#dirpath + '/main.log',
-            "\n[" + this.#date.getSeconds().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getMinutes().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getHours().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getDay().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getMonth().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getFullYear().toString(10).padStart('0', 4).slice(0, 4) + "]"
+            this.#format(this.#date)
             + " WARN : " + message
         )
     }
@@ -69,12 +58,7 @@ class logger {
         this.#date = new Date(Date.now())
         fs.appendFileSync(
             this.#dirpath + '/main.log',
-            "\n[" + this.#date.getSeconds().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getMinutes().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getHours().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getDay().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getMonth().toString(10).padStart('0', 2).slice(0, 2) + ":"
-            + this.#date.getFullYear().toString(10).padStart('0', 4).slice(0, 4) + "]"
+            this.#format(this.#date)
             + " LOG  : " + message
         )
     }

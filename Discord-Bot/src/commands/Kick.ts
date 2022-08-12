@@ -3,19 +3,27 @@ import * as discord from 'discord.js';
 async function command(
     commandInteraction: discord.CommandInteraction
 ) {
-    commandInteraction.options.getMember('user')?.kick()
-        .then(()=>{
-            commandInteraction.reply({
-                content: "Kicked user",
-                ephemeral: true
+    var member = commandInteraction.options.getMember('user')
+    if (member instanceof discord.GuildMember) {
+        member.kick()
+            .then(() => {
+                commandInteraction.reply({
+                    content: "Kicked user",
+                    ephemeral: true
+                })
             })
-        })
-        .catch(()=>{
-            commandInteraction.reply({
-                content: "Couldn't kick user",
-                ephemeral: true
+            .catch(() => {
+                commandInteraction.reply({
+                    content: "Couldn't kick user",
+                    ephemeral: true
+                })
             })
+    } else {
+        commandInteraction.reply({
+            content: "Couldn't kick user",
+            ephemeral: true
         })
+    }
 }
 
 const options: discord.ApplicationCommandOptionData[] = [

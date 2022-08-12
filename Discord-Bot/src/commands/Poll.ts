@@ -12,6 +12,20 @@ async function command(
     return;
 
     var optionsLen = commandInteraction.options.getInteger('options')
+    function genOptions() {
+        var options: discord.MessageSelectOptionData[] = []
+
+        for (let i = 1; i <= optionsLen; i++) {
+            options.push({
+                label: `Option ${i}`,
+                value: `option-${i}`,
+                default: i == 1,
+                description: ''
+            })
+        }
+
+        return options
+    }
 
     var message = new discord.Modal({
         customId: 'prompt',
@@ -24,21 +38,9 @@ async function command(
                         type: 'SELECT_MENU',
                         label: 'Slect option',
                         customId: 'slect',
-                        options: (() => {
-                            var options: discord.MessageSelectOptionData[] = []
-
-                            for (let i = 1; i <= optionsLen; i++) {
-                                options.push({
-                                    label: `Option ${i}`,
-                                    value: `option-${i}`,
-                                    default: i == 1
-                                })
-                            }
-
-                            return options
-                        })()
+                        options: genOptions(),
                     }
-                ]
+                ] as any
             },
             // /*
             {

@@ -10,6 +10,8 @@
         "outDir": "out",
         "allowJs": true,
         "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        
     },
     "include": [
         "config/*",
