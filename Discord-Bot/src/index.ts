@@ -149,7 +149,7 @@ client.on('ready', async () => {
         if (typeof commandManifiest[command.id].id == 'string') {
             var discordCommand = client.application.commands.cache.find(c => c.id == commandManifiest[command.id].id)
             discordCommand.setOptions(command.options)
-            discordCommand.setDefaultPermission(command.defaultPermission || false)
+            discordCommand.setDMPermission(command.defaultPermission || false)
 
             commandIdMap.set(commandManifiest[command.id].id, command.id)
             commandIds.push(commandManifiest[command.id].id)
