@@ -40,7 +40,6 @@ globalThis.creq = async function (target, data, type) {
         var id = uuid.v4()
 
         var wait = (d) => {
-            console.log(JSON.parse(d.data))
             try {
                 d = JSON.parse((d?.data ?? d).toString('ascii'))
             } catch (err) { return }

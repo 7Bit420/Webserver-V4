@@ -162,7 +162,7 @@ http.createServer((req, res) => {
 function onMessage(data = Buffer.alloc(0)) {
     try {
         data = JSON.parse(data.data || data.toString('ascii'))
-    } catch (err) { return console.log(data); }
+    } catch (err) { return console.log("ERROR", data); }
 
     if (!dbconfig[data.body?.database]) {
         client.send(JSON.stringify({
