@@ -360,8 +360,8 @@ if (cluster.isPrimary) {
 
                 httpsServer?.close()
                 httpsServer = https.createServer({
-                    cert: fs.readFileSync(`${dirname}/Config/Certs/WebServer-cert.pem`),
-                    key: fs.readFileSync(`${dirname}/Config/Certs/WebServer-key.pem`),
+                    cert: fs.readFileSync(`${dirname}/Config/Certs/cert.pem`),
+                    key: fs.readFileSync(`${dirname}/Config/Certs/private-key.pem`),
                 }, serverListner)
                 wssServer = new ws.WebSocketServer({
                     server: httpsServer
